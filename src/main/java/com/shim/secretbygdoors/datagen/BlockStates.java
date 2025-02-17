@@ -81,6 +81,7 @@ public class BlockStates extends BlockStateProvider {
         secretDoorBlock(SBYGBlocks.SECRET_NIGHTSHADE_LOG_DOOR.get(), "nightshade_log");
         secretDoorBlock(SBYGBlocks.SECRET_ETHER_LOG_DOOR.get(), "ether_log");
         secretDoorBlock(SBYGBlocks.SECRET_IMPARIUS_STEM_DOOR.get(), "imparius_stem");
+        secretDoorBlock(SBYGBlocks.SECRET_PALO_VERDE_LOG_DOOR.get(), "palo_verde_log");
 
         secretDoorBlock(SBYGBlocks.SECRET_STRIPPED_ASPEN_LOG_DOOR.get(), "stripped_aspen_log");
         secretDoorBlock(SBYGBlocks.SECRET_STRIPPED_BAOBAB_LOG_DOOR.get(), "stripped_baobab_log");
@@ -110,6 +111,7 @@ public class BlockStates extends BlockStateProvider {
         secretDoorBlock(SBYGBlocks.SECRET_STRIPPED_BULBIS_STEM_DOOR.get(), "stripped_bulbis_stem");
         secretDoorBlock(SBYGBlocks.SECRET_STRIPPED_NIGHTSHADE_LOG_DOOR.get(), "stripped_nightshade_log");
         secretDoorBlock(SBYGBlocks.SECRET_STRIPPED_ETHER_LOG_DOOR.get(), "stripped_ether_log");
+        secretDoorBlock(SBYGBlocks.SECRET_STRIPPED_PALO_VERDE_LOG_DOOR.get(), "stripped_palo_verde_log");
 
         horizontalBYGDoorBlock(SBYGBlocks.SECRET_STRIPPED_HORIZONTAL_ASPEN_LOG_DOOR.get(), "stripped_aspen_log");
         horizontalBYGDoorBlock(SBYGBlocks.SECRET_STRIPPED_HORIZONTAL_BAOBAB_LOG_DOOR.get(), "stripped_baobab_log");
@@ -139,6 +141,7 @@ public class BlockStates extends BlockStateProvider {
         horizontalBYGDoorBlock(SBYGBlocks.SECRET_STRIPPED_HORIZONTAL_BULBIS_STEM_DOOR.get(), "stripped_bulbis_stem");
         horizontalBYGDoorBlock(SBYGBlocks.SECRET_STRIPPED_HORIZONTAL_NIGHTSHADE_LOG_DOOR.get(), "stripped_nightshade_log");
         horizontalBYGDoorBlock(SBYGBlocks.SECRET_STRIPPED_HORIZONTAL_ETHER_LOG_DOOR.get(), "stripped_ether_log");
+        horizontalBYGDoorBlock(SBYGBlocks.SECRET_STRIPPED_HORIZONTAL_PALO_VERDE_LOG_DOOR.get(), "stripped_palo_verde_log");
 
         horizontalBYGDoorBlock(SBYGBlocks.SECRET_HORIZONTAL_ASPEN_LOG_DOOR.get(), "aspen_log");
         horizontalBYGDoorBlock(SBYGBlocks.SECRET_HORIZONTAL_BAOBAB_LOG_DOOR.get(), "baobab_log");
@@ -169,6 +172,7 @@ public class BlockStates extends BlockStateProvider {
         horizontalBYGDoorBlock(SBYGBlocks.SECRET_HORIZONTAL_NIGHTSHADE_LOG_DOOR.get(), "nightshade_log");
         horizontalBYGDoorBlock(SBYGBlocks.SECRET_HORIZONTAL_ETHER_LOG_DOOR.get(), "ether_log");
         horizontalBYGDoorBlock(SBYGBlocks.SECRET_HORIZONTAL_IMPARIUS_STEM_DOOR.get(), "imparius_stem");
+        horizontalBYGDoorBlock(SBYGBlocks.SECRET_HORIZONTAL_PALO_VERDE_LOG_DOOR.get(), "palo_verde_log");
 
         secretDoorBlock(SBYGBlocks.SECRET_ASPEN_BOOKSHELF_DOOR.get(), "aspen_bookshelf");
         secretDoorBlock(SBYGBlocks.SECRET_BAOBAB_BOOKSHELF_DOOR.get(), "baobab_bookshelf");
@@ -308,6 +312,7 @@ public class BlockStates extends BlockStateProvider {
         secretTrapdoorBlock(SBYGBlocks.SECRET_NIGHTSHADE_LOG_TRAPDOOR.get(), "nightshade_log");
         secretTrapdoorBlock(SBYGBlocks.SECRET_ETHER_LOG_TRAPDOOR.get(), "ether_log");
         secretTrapdoorBlock(SBYGBlocks.SECRET_IMPARIUS_STEM_TRAPDOOR.get(), "imparius_stem");
+        secretTrapdoorBlock(SBYGBlocks.SECRET_PALO_VERDE_LOG_TRAPDOOR.get(), "palo_verde_log");
 
         secretTrapdoorBlock(SBYGBlocks.SECRET_STRIPPED_ASPEN_LOG_TRAPDOOR.get(), "stripped_aspen_log");
         secretTrapdoorBlock(SBYGBlocks.SECRET_STRIPPED_BAOBAB_LOG_TRAPDOOR.get(), "stripped_baobab_log");
@@ -337,6 +342,7 @@ public class BlockStates extends BlockStateProvider {
         secretTrapdoorBlock(SBYGBlocks.SECRET_STRIPPED_BULBIS_STEM_TRAPDOOR.get(), "stripped_bulbis_stem");
         secretTrapdoorBlock(SBYGBlocks.SECRET_STRIPPED_NIGHTSHADE_LOG_TRAPDOOR.get(), "stripped_nightshade_log");
         secretTrapdoorBlock(SBYGBlocks.SECRET_STRIPPED_ETHER_LOG_TRAPDOOR.get(), "stripped_ether_log");
+        secretTrapdoorBlock(SBYGBlocks.SECRET_STRIPPED_PALO_VERDE_LOG_TRAPDOOR.get(), "stripped_palo_verde_log");
 
         secretTrapdoorBlock(SBYGBlocks.SECRET_ASPEN_BOOKSHELF_TRAPDOOR.get(), "aspen_bookshelf");
         secretTrapdoorBlock(SBYGBlocks.SECRET_BAOBAB_BOOKSHELF_TRAPDOOR.get(), "baobab_bookshelf");

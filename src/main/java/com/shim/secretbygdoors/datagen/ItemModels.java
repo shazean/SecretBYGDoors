@@ -77,6 +77,7 @@ public class ItemModels extends ItemModelProvider {
         generatedModel(SBYGBlocks.SECRET_NIGHTSHADE_LOG_DOOR.get());
         generatedModel(SBYGBlocks.SECRET_ETHER_LOG_DOOR.get());
         generatedModel(SBYGBlocks.SECRET_IMPARIUS_STEM_DOOR.get());
+        generatedModel(SBYGBlocks.SECRET_PALO_VERDE_LOG_DOOR.get());
 
         generatedModel(SBYGBlocks.SECRET_STRIPPED_ASPEN_LOG_DOOR.get());
         generatedModel(SBYGBlocks.SECRET_STRIPPED_BAOBAB_LOG_DOOR.get());
@@ -106,6 +107,7 @@ public class ItemModels extends ItemModelProvider {
         generatedModel(SBYGBlocks.SECRET_STRIPPED_BULBIS_STEM_DOOR.get());
         generatedModel(SBYGBlocks.SECRET_STRIPPED_NIGHTSHADE_LOG_DOOR.get());
         generatedModel(SBYGBlocks.SECRET_STRIPPED_ETHER_LOG_DOOR.get());
+        generatedModel(SBYGBlocks.SECRET_STRIPPED_PALO_VERDE_LOG_DOOR.get());
 
         generatedModel(SBYGBlocks.SECRET_STRIPPED_HORIZONTAL_ASPEN_LOG_DOOR.get());
         generatedModel(SBYGBlocks.SECRET_STRIPPED_HORIZONTAL_BAOBAB_LOG_DOOR.get());
@@ -135,6 +137,7 @@ public class ItemModels extends ItemModelProvider {
         generatedModel(SBYGBlocks.SECRET_STRIPPED_HORIZONTAL_BULBIS_STEM_DOOR.get());
         generatedModel(SBYGBlocks.SECRET_STRIPPED_HORIZONTAL_NIGHTSHADE_LOG_DOOR.get());
         generatedModel(SBYGBlocks.SECRET_STRIPPED_HORIZONTAL_ETHER_LOG_DOOR.get());
+        generatedModel(SBYGBlocks.SECRET_STRIPPED_HORIZONTAL_PALO_VERDE_LOG_DOOR.get());
 
         generatedModel(SBYGBlocks.SECRET_HORIZONTAL_ASPEN_LOG_DOOR.get());
         generatedModel(SBYGBlocks.SECRET_HORIZONTAL_BAOBAB_LOG_DOOR.get());
@@ -165,6 +168,8 @@ public class ItemModels extends ItemModelProvider {
         generatedModel(SBYGBlocks.SECRET_HORIZONTAL_NIGHTSHADE_LOG_DOOR.get());
         generatedModel(SBYGBlocks.SECRET_HORIZONTAL_ETHER_LOG_DOOR.get());
         generatedModel(SBYGBlocks.SECRET_HORIZONTAL_IMPARIUS_STEM_DOOR.get());
+        generatedModel(SBYGBlocks.SECRET_HORIZONTAL_PALO_VERDE_LOG_DOOR.get());
+
 
         generatedModel(SBYGBlocks.SECRET_ASPEN_BOOKSHELF_DOOR.get());
         generatedModel(SBYGBlocks.SECRET_BAOBAB_BOOKSHELF_DOOR.get());
@@ -304,6 +309,7 @@ public class ItemModels extends ItemModelProvider {
         trapdoorModel(SBYGBlocks.SECRET_NIGHTSHADE_LOG_TRAPDOOR.get());
         trapdoorModel(SBYGBlocks.SECRET_ETHER_LOG_TRAPDOOR.get());
         trapdoorModel(SBYGBlocks.SECRET_IMPARIUS_STEM_TRAPDOOR.get());
+        trapdoorModel(SBYGBlocks.SECRET_PALO_VERDE_LOG_TRAPDOOR.get());
 
         trapdoorModel(SBYGBlocks.SECRET_STRIPPED_ASPEN_LOG_TRAPDOOR.get());
         trapdoorModel(SBYGBlocks.SECRET_STRIPPED_BAOBAB_LOG_TRAPDOOR.get());
@@ -333,6 +339,7 @@ public class ItemModels extends ItemModelProvider {
         trapdoorModel(SBYGBlocks.SECRET_STRIPPED_BULBIS_STEM_TRAPDOOR.get());
         trapdoorModel(SBYGBlocks.SECRET_STRIPPED_NIGHTSHADE_LOG_TRAPDOOR.get());
         trapdoorModel(SBYGBlocks.SECRET_STRIPPED_ETHER_LOG_TRAPDOOR.get());
+        trapdoorModel(SBYGBlocks.SECRET_STRIPPED_PALO_VERDE_LOG_TRAPDOOR.get());
 
         trapdoorModel(SBYGBlocks.SECRET_ASPEN_BOOKSHELF_TRAPDOOR.get());
         trapdoorModel(SBYGBlocks.SECRET_BAOBAB_BOOKSHELF_TRAPDOOR.get());

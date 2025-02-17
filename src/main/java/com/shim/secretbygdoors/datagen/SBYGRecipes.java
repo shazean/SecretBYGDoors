@@ -79,6 +79,7 @@ public class SBYGRecipes extends RecipeProvider {
         verticalAndHorizontalDoor(SBYGBlocks.SECRET_NIGHTSHADE_LOG_DOOR.get(), SBYGBlocks.SECRET_HORIZONTAL_NIGHTSHADE_LOG_DOOR.get(), BYGBlocks.NIGHTSHADE_LOG.get(), consumer);
         verticalAndHorizontalDoor(SBYGBlocks.SECRET_ETHER_LOG_DOOR.get(), SBYGBlocks.SECRET_HORIZONTAL_ETHER_LOG_DOOR.get(), BYGBlocks.ETHER_LOG.get(), consumer);
         verticalAndHorizontalDoor(SBYGBlocks.SECRET_IMPARIUS_STEM_DOOR.get(), SBYGBlocks.SECRET_HORIZONTAL_IMPARIUS_STEM_DOOR.get(), BYGBlocks.IMPARIUS_STEM.get(), consumer);
+        verticalAndHorizontalDoor(SBYGBlocks.SECRET_PALO_VERDE_LOG_DOOR.get(), SBYGBlocks.SECRET_HORIZONTAL_PALO_VERDE_LOG_DOOR.get(), BYGBlocks.PALO_VERDE_LOG.get(), consumer);
 
         verticalAndHorizontalDoor(SBYGBlocks.SECRET_STRIPPED_ASPEN_LOG_DOOR.get(), SBYGBlocks.SECRET_STRIPPED_HORIZONTAL_ASPEN_LOG_DOOR.get(), BYGBlocks.STRIPPED_ASPEN_LOG.get(), consumer);
         verticalAndHorizontalDoor(SBYGBlocks.SECRET_STRIPPED_BAOBAB_LOG_DOOR.get(), SBYGBlocks.SECRET_STRIPPED_HORIZONTAL_BAOBAB_LOG_DOOR.get(), BYGBlocks.STRIPPED_BAOBAB_LOG.get(), consumer);
@@ -108,6 +109,39 @@ public class SBYGRecipes extends RecipeProvider {
         verticalAndHorizontalDoor(SBYGBlocks.SECRET_STRIPPED_BULBIS_STEM_DOOR.get(), SBYGBlocks.SECRET_STRIPPED_HORIZONTAL_BULBIS_STEM_DOOR.get(), BYGBlocks.STRIPPED_BULBIS_LOG.get(), consumer);
         verticalAndHorizontalDoor(SBYGBlocks.SECRET_STRIPPED_NIGHTSHADE_LOG_DOOR.get(), SBYGBlocks.SECRET_STRIPPED_HORIZONTAL_NIGHTSHADE_LOG_DOOR.get(), BYGBlocks.STRIPPED_NIGHTSHADE_LOG.get(), consumer);
         verticalAndHorizontalDoor(SBYGBlocks.SECRET_STRIPPED_ETHER_LOG_DOOR.get(), SBYGBlocks.SECRET_STRIPPED_HORIZONTAL_ETHER_LOG_DOOR.get(), BYGBlocks.STRIPPED_ETHER_LOG.get(), consumer);
+        verticalAndHorizontalDoor(SBYGBlocks.SECRET_STRIPPED_PALO_VERDE_LOG_DOOR.get(), SBYGBlocks.SECRET_STRIPPED_HORIZONTAL_PALO_VERDE_LOG_DOOR.get(), BYGBlocks.STRIPPED_PALO_VERDE_LOG.get(), consumer);
+
+
+        woodenDoor(SBYGBlocks.SECRET_ASPEN_BOOKSHELF_DOOR.get(), BYGBlocks.ASPEN_BOOKSHELF.get(), consumer);
+        woodenDoor(SBYGBlocks.SECRET_BAOBAB_BOOKSHELF_DOOR.get(), BYGBlocks.BAOBAB_BOOKSHELF.get(), consumer);
+        woodenDoor(SBYGBlocks.SECRET_BLUE_ENCHANTED_BOOKSHELF_DOOR.get(), BYGBlocks.BLUE_ENCHANTED_BOOKSHELF.get(), consumer);
+        woodenDoor(SBYGBlocks.SECRET_CHERRY_BOOKSHELF_DOOR.get(), BYGBlocks.CHERRY_BOOKSHELF.get(), consumer);
+        woodenDoor(SBYGBlocks.SECRET_CIKA_BOOKSHELF_DOOR.get(), BYGBlocks.CIKA_BOOKSHELF.get(), consumer);
+        woodenDoor(SBYGBlocks.SECRET_CYPRESS_BOOKSHELF_DOOR.get(), BYGBlocks.CYPRESS_BOOKSHELF.get(), consumer);
+        woodenDoor(SBYGBlocks.SECRET_EBONY_BOOKSHELF_DOOR.get(), BYGBlocks.EBONY_BOOKSHELF.get(), consumer);
+        woodenDoor(SBYGBlocks.SECRET_FIR_BOOKSHELF_DOOR.get(), BYGBlocks.FIR_BOOKSHELF.get(), consumer);
+        woodenDoor(SBYGBlocks.SECRET_GREEN_ENCHANTED_BOOKSHELF_DOOR.get(), BYGBlocks.GREEN_ENCHANTED_BOOKSHELF.get(), consumer);
+        woodenDoor(SBYGBlocks.SECRET_HOLLY_BOOKSHELF_DOOR.get(), BYGBlocks.HOLLY_BOOKSHELF.get(), consumer);
+        woodenDoor(SBYGBlocks.SECRET_JACARANDA_BOOKSHELF_DOOR.get(), BYGBlocks.JACARANDA_BOOKSHELF.get(), consumer);
+        woodenDoor(SBYGBlocks.SECRET_MAHOGANY_BOOKSHELF_DOOR.get(), BYGBlocks.MAHOGANY_BOOKSHELF.get(), consumer);
+        woodenDoor(SBYGBlocks.SECRET_MANGROVE_BOOKSHELF_DOOR.get(), BYGBlocks.MANGROVE_BOOKSHELF.get(), consumer);
+        woodenDoor(SBYGBlocks.SECRET_MAPLE_BOOKSHELF_DOOR.get(), BYGBlocks.MAPLE_BOOKSHELF.get(), consumer);
+        woodenDoor(SBYGBlocks.SECRET_PINE_BOOKSHELF_DOOR.get(), BYGBlocks.PINE_BOOKSHELF.get(), consumer);
+        woodenDoor(SBYGBlocks.SECRET_RAINBOW_EUCALYPTUS_BOOKSHELF_DOOR.get(), BYGBlocks.RAINBOW_EUCALYPTUS_BOOKSHELF.get(), consumer);
+        woodenDoor(SBYGBlocks.SECRET_REDWOOD_BOOKSHELF_DOOR.get(), BYGBlocks.REDWOOD_BOOKSHELF.get(), consumer);
+        woodenDoor(SBYGBlocks.SECRET_SKYRIS_BOOKSHELF_DOOR.get(), BYGBlocks.SKYRIS_BOOKSHELF.get(), consumer);
+        woodenDoor(SBYGBlocks.SECRET_WILLOW_BOOKSHELF_DOOR.get(), BYGBlocks.WILLOW_BOOKSHELF.get(), consumer);
+        woodenDoor(SBYGBlocks.SECRET_WITCH_HAZEL_BOOKSHELF_DOOR.get(), BYGBlocks.WITCH_HAZEL_BOOKSHELF.get(), consumer);
+        woodenDoor(SBYGBlocks.SECRET_ZELKOVA_BOOKSHELF_DOOR.get(), BYGBlocks.ZELKOVA_BOOKSHELF.get(), consumer);
+        woodenDoor(SBYGBlocks.SECRET_SYTHIAN_BOOKSHELF_DOOR.get(), BYGBlocks.SYTHIAN_BOOKSHELF.get(), consumer);
+        woodenDoor(SBYGBlocks.SECRET_EMBUR_BOOKSHELF_DOOR.get(), BYGBlocks.EMBUR_BOOKSHELF.get(), consumer);
+        woodenDoor(SBYGBlocks.SECRET_PALM_BOOKSHELF_DOOR.get(), BYGBlocks.PALM_BOOKSHELF.get(), consumer);
+        woodenDoor(SBYGBlocks.SECRET_LAMENT_BOOKSHELF_DOOR.get(), BYGBlocks.LAMENT_BOOKSHELF.get(), consumer);
+        woodenDoor(SBYGBlocks.SECRET_BULBIS_BOOKSHELF_DOOR.get(), BYGBlocks.BULBIS_BOOKSHELF.get(), consumer);
+        woodenDoor(SBYGBlocks.SECRET_NIGHTSHADE_BOOKSHELF_DOOR.get(), BYGBlocks.NIGHTSHADE_BOOKSHELF.get(), consumer);
+        woodenDoor(SBYGBlocks.SECRET_ETHER_BOOKSHELF_DOOR.get(), BYGBlocks.ETHER_BOOKSHELF.get(), consumer);
+        woodenDoor(SBYGBlocks.SECRET_IMPARIUS_BOOKSHELF_DOOR.get(), BYGBlocks.IMPARIUS_BOOKSHELF.get(), consumer);
+
 
         door(SBYGBlocks.SECRET_WHITE_SANDSTONE_DOOR.get(), BYGBlocks.WHITE_SANDSTONE.get(), consumer);
         door(SBYGBlocks.SECRET_CUT_WHITE_SANDSTONE_DOOR.get(), BYGBlocks.WHITE_CUT_SANDSTONE.get(), consumer);
@@ -217,6 +251,7 @@ public class SBYGRecipes extends RecipeProvider {
         woodenTrapdoor(SBYGBlocks.SECRET_NIGHTSHADE_LOG_TRAPDOOR.get(), BYGBlocks.NIGHTSHADE_LOG.get(), consumer);
         woodenTrapdoor(SBYGBlocks.SECRET_ETHER_LOG_TRAPDOOR.get(), BYGBlocks.ETHER_LOG.get(), consumer);
         woodenTrapdoor(SBYGBlocks.SECRET_IMPARIUS_STEM_TRAPDOOR.get(), BYGBlocks.IMPARIUS_STEM.get(), consumer);
+        woodenTrapdoor(SBYGBlocks.SECRET_PALO_VERDE_LOG_TRAPDOOR.get(), BYGBlocks.PALO_VERDE_LOG.get(), consumer);
 
 
         woodenTrapdoor(SBYGBlocks.SECRET_STRIPPED_ASPEN_LOG_TRAPDOOR.get(), BYGBlocks.STRIPPED_ASPEN_LOG.get(), consumer);
@@ -247,6 +282,38 @@ public class SBYGRecipes extends RecipeProvider {
         woodenTrapdoor(SBYGBlocks.SECRET_STRIPPED_BULBIS_STEM_TRAPDOOR.get(), BYGBlocks.STRIPPED_BULBIS_LOG.get(), consumer);
         woodenTrapdoor(SBYGBlocks.SECRET_STRIPPED_NIGHTSHADE_LOG_TRAPDOOR.get(), BYGBlocks.STRIPPED_NIGHTSHADE_LOG.get(), consumer);
         woodenTrapdoor(SBYGBlocks.SECRET_STRIPPED_ETHER_LOG_TRAPDOOR.get(), BYGBlocks.STRIPPED_ETHER_LOG.get(), consumer);
+        woodenTrapdoor(SBYGBlocks.SECRET_STRIPPED_PALO_VERDE_LOG_TRAPDOOR.get(), BYGBlocks.STRIPPED_PALO_VERDE_LOG.get(), consumer);
+
+        woodenTrapdoor(SBYGBlocks.SECRET_ASPEN_BOOKSHELF_TRAPDOOR.get(), BYGBlocks.ASPEN_BOOKSHELF.get(), consumer);
+        woodenTrapdoor(SBYGBlocks.SECRET_BAOBAB_BOOKSHELF_TRAPDOOR.get(), BYGBlocks.BAOBAB_BOOKSHELF.get(), consumer);
+        woodenTrapdoor(SBYGBlocks.SECRET_BLUE_ENCHANTED_BOOKSHELF_TRAPDOOR.get(), BYGBlocks.BLUE_ENCHANTED_BOOKSHELF.get(), consumer);
+        woodenTrapdoor(SBYGBlocks.SECRET_CHERRY_BOOKSHELF_TRAPDOOR.get(), BYGBlocks.CHERRY_BOOKSHELF.get(), consumer);
+        woodenTrapdoor(SBYGBlocks.SECRET_CIKA_BOOKSHELF_TRAPDOOR.get(), BYGBlocks.CIKA_BOOKSHELF.get(), consumer);
+        woodenTrapdoor(SBYGBlocks.SECRET_CYPRESS_BOOKSHELF_TRAPDOOR.get(), BYGBlocks.CYPRESS_BOOKSHELF.get(), consumer);
+        woodenTrapdoor(SBYGBlocks.SECRET_EBONY_BOOKSHELF_TRAPDOOR.get(), BYGBlocks.EBONY_BOOKSHELF.get(), consumer);
+        woodenTrapdoor(SBYGBlocks.SECRET_FIR_BOOKSHELF_TRAPDOOR.get(), BYGBlocks.FIR_BOOKSHELF.get(), consumer);
+        woodenTrapdoor(SBYGBlocks.SECRET_GREEN_ENCHANTED_BOOKSHELF_TRAPDOOR.get(), BYGBlocks.GREEN_ENCHANTED_BOOKSHELF.get(), consumer);
+        woodenTrapdoor(SBYGBlocks.SECRET_HOLLY_BOOKSHELF_TRAPDOOR.get(), BYGBlocks.HOLLY_BOOKSHELF.get(), consumer);
+        woodenTrapdoor(SBYGBlocks.SECRET_JACARANDA_BOOKSHELF_TRAPDOOR.get(), BYGBlocks.JACARANDA_BOOKSHELF.get(), consumer);
+        woodenTrapdoor(SBYGBlocks.SECRET_MAHOGANY_BOOKSHELF_TRAPDOOR.get(), BYGBlocks.MAHOGANY_BOOKSHELF.get(), consumer);
+        woodenTrapdoor(SBYGBlocks.SECRET_MANGROVE_BOOKSHELF_TRAPDOOR.get(), BYGBlocks.MANGROVE_BOOKSHELF.get(), consumer);
+        woodenTrapdoor(SBYGBlocks.SECRET_MAPLE_BOOKSHELF_TRAPDOOR.get(), BYGBlocks.MAPLE_BOOKSHELF.get(), consumer);
+        woodenTrapdoor(SBYGBlocks.SECRET_PINE_BOOKSHELF_TRAPDOOR.get(), BYGBlocks.PINE_BOOKSHELF.get(), consumer);
+        woodenTrapdoor(SBYGBlocks.SECRET_RAINBOW_EUCALYPTUS_BOOKSHELF_TRAPDOOR.get(), BYGBlocks.RAINBOW_EUCALYPTUS_BOOKSHELF.get(), consumer);
+        woodenTrapdoor(SBYGBlocks.SECRET_REDWOOD_BOOKSHELF_TRAPDOOR.get(), BYGBlocks.REDWOOD_BOOKSHELF.get(), consumer);
+        woodenTrapdoor(SBYGBlocks.SECRET_SKYRIS_BOOKSHELF_TRAPDOOR.get(), BYGBlocks.SKYRIS_BOOKSHELF.get(), consumer);
+        woodenTrapdoor(SBYGBlocks.SECRET_WILLOW_BOOKSHELF_TRAPDOOR.get(), BYGBlocks.WILLOW_BOOKSHELF.get(), consumer);
+        woodenTrapdoor(SBYGBlocks.SECRET_WITCH_HAZEL_BOOKSHELF_TRAPDOOR.get(), BYGBlocks.WITCH_HAZEL_BOOKSHELF.get(), consumer);
+        woodenTrapdoor(SBYGBlocks.SECRET_ZELKOVA_BOOKSHELF_TRAPDOOR.get(), BYGBlocks.ZELKOVA_BOOKSHELF.get(), consumer);
+        woodenTrapdoor(SBYGBlocks.SECRET_SYTHIAN_BOOKSHELF_TRAPDOOR.get(), BYGBlocks.SYTHIAN_BOOKSHELF.get(), consumer);
+        woodenTrapdoor(SBYGBlocks.SECRET_EMBUR_BOOKSHELF_TRAPDOOR.get(), BYGBlocks.EMBUR_BOOKSHELF.get(), consumer);
+        woodenTrapdoor(SBYGBlocks.SECRET_PALM_BOOKSHELF_TRAPDOOR.get(), BYGBlocks.PALM_BOOKSHELF.get(), consumer);
+        woodenTrapdoor(SBYGBlocks.SECRET_LAMENT_BOOKSHELF_TRAPDOOR.get(), BYGBlocks.LAMENT_BOOKSHELF.get(), consumer);
+        woodenTrapdoor(SBYGBlocks.SECRET_BULBIS_BOOKSHELF_TRAPDOOR.get(), BYGBlocks.BULBIS_BOOKSHELF.get(), consumer);
+        woodenTrapdoor(SBYGBlocks.SECRET_NIGHTSHADE_BOOKSHELF_TRAPDOOR.get(), BYGBlocks.NIGHTSHADE_BOOKSHELF.get(), consumer);
+        woodenTrapdoor(SBYGBlocks.SECRET_ETHER_BOOKSHELF_TRAPDOOR.get(), BYGBlocks.ETHER_BOOKSHELF.get(), consumer);
+        woodenTrapdoor(SBYGBlocks.SECRET_IMPARIUS_BOOKSHELF_TRAPDOOR.get(), BYGBlocks.IMPARIUS_BOOKSHELF.get(), consumer);
+
 
         trapdoor(SBYGBlocks.SECRET_WHITE_SANDSTONE_TRAPDOOR.get(), BYGBlocks.WHITE_SANDSTONE.get(), consumer);
         trapdoor(SBYGBlocks.SECRET_CUT_WHITE_SANDSTONE_TRAPDOOR.get(), BYGBlocks.WHITE_CUT_SANDSTONE.get(), consumer);
