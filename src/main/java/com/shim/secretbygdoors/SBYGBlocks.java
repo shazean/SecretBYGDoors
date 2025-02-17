@@ -140,7 +140,7 @@ public class SBYGBlocks {
     public static RegistryObject<DoorBlock> SECRET_HOLLY_PLANK_DOOR = registerPlankDoorBlock("holly", "Holly", () -> new DoorBlock(WOOD_PROPERTIES));
     public static RegistryObject<DoorBlock> SECRET_JACARANDA_PLANK_DOOR = registerPlankDoorBlock("jacaranda", "Jacaranda", () -> new DoorBlock(WOOD_PROPERTIES));
     public static RegistryObject<DoorBlock> SECRET_MAHOGANY_PLANK_DOOR = registerPlankDoorBlock("mahogany", "Mahogany", () -> new DoorBlock(WOOD_PROPERTIES));
-    public static RegistryObject<DoorBlock> SECRET_MANGROVE_PLANK_DOOR = registerPlankDoorBlock("mangrove", "Mangrove", () -> new DoorBlock(WOOD_PROPERTIES));
+    public static RegistryObject<DoorBlock> SECRET_WHITE_MANGROVE_PLANK_DOOR = registerPlankDoorBlock("white_mangrove", "White Mangrove", () -> new DoorBlock(WOOD_PROPERTIES));
     public static RegistryObject<DoorBlock> SECRET_MAPLE_PLANK_DOOR = registerPlankDoorBlock("maple", "Maple", () -> new DoorBlock(WOOD_PROPERTIES));
     public static RegistryObject<DoorBlock> SECRET_PINE_PLANK_DOOR = registerPlankDoorBlock("pine", "Pine", () -> new DoorBlock(WOOD_PROPERTIES));
     public static RegistryObject<DoorBlock> SECRET_RAINBOW_EUCALYPTUS_PLANK_DOOR = registerPlankDoorBlock("rainbow_eucalyptus", "Rainbow Eucalyptus", () -> new DoorBlock(WOOD_PROPERTIES));
@@ -170,7 +170,7 @@ public class SBYGBlocks {
     public static RegistryObject<DoorBlock> SECRET_HOLLY_LOG_DOOR = registerLogDoorBlock("holly", "Holly", () -> new DoorBlock(WOOD_PROPERTIES));
     public static RegistryObject<DoorBlock> SECRET_JACARANDA_LOG_DOOR = registerLogDoorBlock("jacaranda", "Jacaranda", () -> new DoorBlock(WOOD_PROPERTIES));
     public static RegistryObject<DoorBlock> SECRET_MAHOGANY_LOG_DOOR = registerLogDoorBlock("mahogany", "Mahogany", () -> new DoorBlock(WOOD_PROPERTIES));
-    public static RegistryObject<DoorBlock> SECRET_MANGROVE_LOG_DOOR = registerLogDoorBlock("mangrove", "Mangrove", () -> new DoorBlock(WOOD_PROPERTIES));
+    public static RegistryObject<DoorBlock> SECRET_WHITE_MANGROVE_LOG_DOOR = registerLogDoorBlock("white_mangrove", "White Mangrove", () -> new DoorBlock(WOOD_PROPERTIES));
     public static RegistryObject<DoorBlock> SECRET_MAPLE_LOG_DOOR = registerLogDoorBlock("maple", "Maple", () -> new DoorBlock(WOOD_PROPERTIES));
     public static RegistryObject<DoorBlock> SECRET_PINE_LOG_DOOR = registerLogDoorBlock("pine", "Pine", () -> new DoorBlock(WOOD_PROPERTIES));
     public static RegistryObject<DoorBlock> SECRET_RAINBOW_EUCALYPTUS_LOG_DOOR = registerLogDoorBlock("rainbow_eucalyptus", "Rainbow Eucalyptus", () -> new DoorBlock(WOOD_PROPERTIES));
@@ -187,6 +187,7 @@ public class SBYGBlocks {
     public static RegistryObject<DoorBlock> SECRET_NIGHTSHADE_LOG_DOOR = registerLogDoorBlock("nightshade", "Nightshade", () -> new DoorBlock(WOOD_PROPERTIES));
     public static RegistryObject<DoorBlock> SECRET_ETHER_LOG_DOOR = registerLogDoorBlock("ether", "Ether", () -> new DoorBlock(WOOD_PROPERTIES));
     public static RegistryObject<DoorBlock> SECRET_IMPARIUS_STEM_DOOR = registerStemDoorBlock("imparius", "Imparius", () -> new DoorBlock(WOOD_PROPERTIES));
+    public static RegistryObject<DoorBlock> SECRET_PALO_VERDE_LOG_DOOR = registerLogDoorBlock("palo_verde", "Palo Verde", () -> new DoorBlock(WOOD_PROPERTIES));
 
     public static RegistryObject<DoorBlock> SECRET_STRIPPED_ASPEN_LOG_DOOR = registerStrippedLogDoorBlock("aspen", "Aspen", () -> new DoorBlock(WOOD_PROPERTIES));
     public static RegistryObject<DoorBlock> SECRET_STRIPPED_BAOBAB_LOG_DOOR = registerStrippedLogDoorBlock("baobab", "Baobab", () -> new DoorBlock(WOOD_PROPERTIES));
@@ -200,7 +201,7 @@ public class SBYGBlocks {
     public static RegistryObject<DoorBlock> SECRET_STRIPPED_HOLLY_LOG_DOOR = registerStrippedLogDoorBlock("holly", "Holly", () -> new DoorBlock(WOOD_PROPERTIES));
     public static RegistryObject<DoorBlock> SECRET_STRIPPED_JACARANDA_LOG_DOOR = registerStrippedLogDoorBlock("jacaranda", "Jacaranda", () -> new DoorBlock(WOOD_PROPERTIES));
     public static RegistryObject<DoorBlock> SECRET_STRIPPED_MAHOGANY_LOG_DOOR = registerStrippedLogDoorBlock("mahogany", "Mahogany", () -> new DoorBlock(WOOD_PROPERTIES));
-    public static RegistryObject<DoorBlock> SECRET_STRIPPED_MANGROVE_LOG_DOOR = registerStrippedLogDoorBlock("mangrove", "Mangrove", () -> new DoorBlock(WOOD_PROPERTIES));
+    public static RegistryObject<DoorBlock> SECRET_STRIPPED_WHITE_MANGROVE_LOG_DOOR = registerStrippedLogDoorBlock("white_mangrove", "White Mangrove", () -> new DoorBlock(WOOD_PROPERTIES));
     public static RegistryObject<DoorBlock> SECRET_STRIPPED_MAPLE_LOG_DOOR = registerStrippedLogDoorBlock("maple", "Maple", () -> new DoorBlock(WOOD_PROPERTIES));
     public static RegistryObject<DoorBlock> SECRET_STRIPPED_PINE_LOG_DOOR = registerStrippedLogDoorBlock("pine", "Pine", () -> new DoorBlock(WOOD_PROPERTIES));
     public static RegistryObject<DoorBlock> SECRET_STRIPPED_RAINBOW_EUCALYPTUS_LOG_DOOR = registerStrippedLogDoorBlock("rainbow_eucalyptus", "Rainbow Eucalyptus", () -> new DoorBlock(WOOD_PROPERTIES));
@@ -216,6 +217,7 @@ public class SBYGBlocks {
     public static RegistryObject<DoorBlock> SECRET_STRIPPED_BULBIS_STEM_DOOR = registerStrippedStemDoorBlock("bulbis", "Bulbis", () -> new DoorBlock(WOOD_PROPERTIES));
     public static RegistryObject<DoorBlock> SECRET_STRIPPED_NIGHTSHADE_LOG_DOOR = registerStrippedLogDoorBlock("nightshade", "Nightshade", () -> new DoorBlock(WOOD_PROPERTIES));
     public static RegistryObject<DoorBlock> SECRET_STRIPPED_ETHER_LOG_DOOR = registerStrippedStemDoorBlock("ether", "Ether", () -> new DoorBlock(WOOD_PROPERTIES));
+    public static RegistryObject<DoorBlock> SECRET_STRIPPED_PALO_VERDE_LOG_DOOR = registerStrippedLogDoorBlock("palo_verde", "Palo Verde", () -> new DoorBlock(WOOD_PROPERTIES));
 
     public static RegistryObject<DoorBlock> SECRET_HORIZONTAL_ASPEN_LOG_DOOR = registerHorizontalLogDoorBlock("aspen", "Aspen", () -> new DoorBlock(WOOD_PROPERTIES));
     public static RegistryObject<DoorBlock> SECRET_HORIZONTAL_BAOBAB_LOG_DOOR = registerHorizontalLogDoorBlock("baobab", "Baobab", () -> new DoorBlock(WOOD_PROPERTIES));
@@ -229,7 +231,7 @@ public class SBYGBlocks {
     public static RegistryObject<DoorBlock> SECRET_HORIZONTAL_HOLLY_LOG_DOOR = registerHorizontalLogDoorBlock("holly", "Holly", () -> new DoorBlock(WOOD_PROPERTIES));
     public static RegistryObject<DoorBlock> SECRET_HORIZONTAL_JACARANDA_LOG_DOOR = registerHorizontalLogDoorBlock("jacaranda", "Jacaranda", () -> new DoorBlock(WOOD_PROPERTIES));
     public static RegistryObject<DoorBlock> SECRET_HORIZONTAL_MAHOGANY_LOG_DOOR = registerHorizontalLogDoorBlock("mahogany", "Mahogany", () -> new DoorBlock(WOOD_PROPERTIES));
-    public static RegistryObject<DoorBlock> SECRET_HORIZONTAL_MANGROVE_LOG_DOOR = registerHorizontalLogDoorBlock("mangrove", "Mangrove", () -> new DoorBlock(WOOD_PROPERTIES));
+    public static RegistryObject<DoorBlock> SECRET_HORIZONTAL_WHITE_MANGROVE_LOG_DOOR = registerHorizontalLogDoorBlock("white_mangrove", "White Mangrove", () -> new DoorBlock(WOOD_PROPERTIES));
     public static RegistryObject<DoorBlock> SECRET_HORIZONTAL_MAPLE_LOG_DOOR = registerHorizontalLogDoorBlock("maple", "Maple", () -> new DoorBlock(WOOD_PROPERTIES));
     public static RegistryObject<DoorBlock> SECRET_HORIZONTAL_PINE_LOG_DOOR = registerHorizontalLogDoorBlock("pine", "Pine", () -> new DoorBlock(WOOD_PROPERTIES));
     public static RegistryObject<DoorBlock> SECRET_HORIZONTAL_RAINBOW_EUCALYPTUS_LOG_DOOR = registerHorizontalLogDoorBlock("rainbow_eucalyptus", "Rainbow Eucalyptus", () -> new DoorBlock(WOOD_PROPERTIES));
@@ -246,6 +248,7 @@ public class SBYGBlocks {
     public static RegistryObject<DoorBlock> SECRET_HORIZONTAL_NIGHTSHADE_LOG_DOOR = registerHorizontalLogDoorBlock("nightshade", "Nightshade", () -> new DoorBlock(WOOD_PROPERTIES));
     public static RegistryObject<DoorBlock> SECRET_HORIZONTAL_ETHER_LOG_DOOR = registerHorizontalLogDoorBlock("ether", "Ether", () -> new DoorBlock(WOOD_PROPERTIES));
     public static RegistryObject<DoorBlock> SECRET_HORIZONTAL_IMPARIUS_STEM_DOOR = registerHorizontalStemDoorBlock("imparius", "Imparius", () -> new DoorBlock(WOOD_PROPERTIES));
+    public static RegistryObject<DoorBlock> SECRET_HORIZONTAL_PALO_VERDE_LOG_DOOR = registerHorizontalLogDoorBlock("palo_verde", "Palo Verde", () -> new DoorBlock(WOOD_PROPERTIES));
 
     public static RegistryObject<DoorBlock> SECRET_STRIPPED_HORIZONTAL_ASPEN_LOG_DOOR = registerStrippedHorizontalLogDoorBlock("aspen", "Aspen", () -> new DoorBlock(WOOD_PROPERTIES));
     public static RegistryObject<DoorBlock> SECRET_STRIPPED_HORIZONTAL_BAOBAB_LOG_DOOR = registerStrippedHorizontalLogDoorBlock("baobab", "Baobab", () -> new DoorBlock(WOOD_PROPERTIES));
@@ -259,7 +262,7 @@ public class SBYGBlocks {
     public static RegistryObject<DoorBlock> SECRET_STRIPPED_HORIZONTAL_HOLLY_LOG_DOOR = registerStrippedHorizontalLogDoorBlock("holly", "Holly", () -> new DoorBlock(WOOD_PROPERTIES));
     public static RegistryObject<DoorBlock> SECRET_STRIPPED_HORIZONTAL_JACARANDA_LOG_DOOR = registerStrippedHorizontalLogDoorBlock("jacaranda", "Jacaranda", () -> new DoorBlock(WOOD_PROPERTIES));
     public static RegistryObject<DoorBlock> SECRET_STRIPPED_HORIZONTAL_MAHOGANY_LOG_DOOR = registerStrippedHorizontalLogDoorBlock("mahogany", "Mahogany", () -> new DoorBlock(WOOD_PROPERTIES));
-    public static RegistryObject<DoorBlock> SECRET_STRIPPED_HORIZONTAL_MANGROVE_LOG_DOOR = registerStrippedHorizontalLogDoorBlock("mangrove", "Mangrove", () -> new DoorBlock(WOOD_PROPERTIES));
+    public static RegistryObject<DoorBlock> SECRET_STRIPPED_HORIZONTAL_WHITE_MANGROVE_LOG_DOOR = registerStrippedHorizontalLogDoorBlock("white_mangrove", "White Mangrove", () -> new DoorBlock(WOOD_PROPERTIES));
     public static RegistryObject<DoorBlock> SECRET_STRIPPED_HORIZONTAL_MAPLE_LOG_DOOR = registerStrippedHorizontalLogDoorBlock("maple", "Maple", () -> new DoorBlock(WOOD_PROPERTIES));
     public static RegistryObject<DoorBlock> SECRET_STRIPPED_HORIZONTAL_PINE_LOG_DOOR = registerStrippedHorizontalLogDoorBlock("pine", "Pine", () -> new DoorBlock(WOOD_PROPERTIES));
     public static RegistryObject<DoorBlock> SECRET_STRIPPED_HORIZONTAL_RAINBOW_EUCALYPTUS_LOG_DOOR = registerStrippedHorizontalLogDoorBlock("rainbow_eucalyptus", "Rainbow Eucalyptus", () -> new DoorBlock(WOOD_PROPERTIES));
@@ -275,7 +278,8 @@ public class SBYGBlocks {
     public static RegistryObject<DoorBlock> SECRET_STRIPPED_HORIZONTAL_BULBIS_STEM_DOOR = registerStrippedHorizontalStemDoorBlock("bulbis", "Bulbis", () -> new DoorBlock(WOOD_PROPERTIES));
     public static RegistryObject<DoorBlock> SECRET_STRIPPED_HORIZONTAL_NIGHTSHADE_LOG_DOOR = registerStrippedHorizontalLogDoorBlock("nightshade", "Nightshade", () -> new DoorBlock(WOOD_PROPERTIES));
     public static RegistryObject<DoorBlock> SECRET_STRIPPED_HORIZONTAL_ETHER_LOG_DOOR = registerStrippedHorizontalLogDoorBlock("ether", "Ether", () -> new DoorBlock(WOOD_PROPERTIES));
-    
+    public static RegistryObject<DoorBlock> SECRET_STRIPPED_HORIZONTAL_PALO_VERDE_LOG_DOOR = registerStrippedHorizontalLogDoorBlock("palo_verde", "Palo Verde", () -> new DoorBlock(WOOD_PROPERTIES));
+
     public static RegistryObject<DoorBlock> SECRET_ASPEN_BOOKSHELF_DOOR = registerBookshelfDoorBlock("aspen", "Aspen", () -> new DoorBlock(WOOD_PROPERTIES));
     public static RegistryObject<DoorBlock> SECRET_BAOBAB_BOOKSHELF_DOOR = registerBookshelfDoorBlock("baobab", "Baobab", () -> new DoorBlock(WOOD_PROPERTIES));
     public static RegistryObject<DoorBlock> SECRET_BLUE_ENCHANTED_BOOKSHELF_DOOR = registerBookshelfDoorBlock("blue_enchanted", "Blue Enchanted", () -> new DoorBlock(WOOD_PROPERTIES));
@@ -288,7 +292,7 @@ public class SBYGBlocks {
     public static RegistryObject<DoorBlock> SECRET_HOLLY_BOOKSHELF_DOOR = registerBookshelfDoorBlock("holly", "Holly", () -> new DoorBlock(WOOD_PROPERTIES));
     public static RegistryObject<DoorBlock> SECRET_JACARANDA_BOOKSHELF_DOOR = registerBookshelfDoorBlock("jacaranda", "Jacaranda", () -> new DoorBlock(WOOD_PROPERTIES));
     public static RegistryObject<DoorBlock> SECRET_MAHOGANY_BOOKSHELF_DOOR = registerBookshelfDoorBlock("mahogany", "Mahogany", () -> new DoorBlock(WOOD_PROPERTIES));
-    public static RegistryObject<DoorBlock> SECRET_MANGROVE_BOOKSHELF_DOOR = registerBookshelfDoorBlock("mangrove", "Mangrove", () -> new DoorBlock(WOOD_PROPERTIES));
+    public static RegistryObject<DoorBlock> SECRET_WHITE_MANGROVE_BOOKSHELF_DOOR = registerBookshelfDoorBlock("white_mangrove", "White Mangrove", () -> new DoorBlock(WOOD_PROPERTIES));
     public static RegistryObject<DoorBlock> SECRET_MAPLE_BOOKSHELF_DOOR = registerBookshelfDoorBlock("maple", "Maple", () -> new DoorBlock(WOOD_PROPERTIES));
     public static RegistryObject<DoorBlock> SECRET_PINE_BOOKSHELF_DOOR = registerBookshelfDoorBlock("pine", "Pine", () -> new DoorBlock(WOOD_PROPERTIES));
     public static RegistryObject<DoorBlock> SECRET_RAINBOW_EUCALYPTUS_BOOKSHELF_DOOR = registerBookshelfDoorBlock("rainbow_eucalyptus", "Rainbow Eucalyptus", () -> new DoorBlock(WOOD_PROPERTIES));
@@ -329,7 +333,6 @@ public class SBYGBlocks {
     public static RegistryObject<DoorBlock> SECRET_BLUE_NETHER_BRICK_DOOR = registerDoorBlock("blue_nether_bricks", "Blue Nether Bricks", () -> new DoorBlock(NETHERBRICK_PROPERTIES));
     public static RegistryObject<DoorBlock> SECRET_YELLOW_NETHER_BRICK_DOOR = registerDoorBlock("yellow_nether_bricks", "Yellow Nether Bricks", () -> new DoorBlock(NETHERBRICK_PROPERTIES));
 
-    public static RegistryObject<DoorBlock> SECRET_MUD_BRICKS_DOOR = registerDoorBlock("mud_bricks", "Mud Bricks", () -> new DoorBlock(STONE_PROPERTIES));
     public static RegistryObject<DoorBlock> SECRET_BRIMSTONE_DOOR = registerDoorBlock("brimstone", "Brimstone", () -> new DoorBlock(STONE_PROPERTIES));
     public static RegistryObject<DoorBlock> SECRET_PURPUR_STONE_DOOR = registerDoorBlock("purpur_stone", "Purpur Stone", () -> new DoorBlock(STONE_PROPERTIES));
     public static RegistryObject<DoorBlock> SECRET_ETHER_STONE_DOOR = registerDoorBlock("ether_stone", "Ether Stone", () -> new DoorBlock(STONE_PROPERTIES));
@@ -351,7 +354,7 @@ public class SBYGBlocks {
     public static RegistryObject<DoorBlock> SECRET_SOAPSTONE_BRICKS_DOOR = registerDoorBlock("soapstone_bricks", "Soapstone Bricks", () -> new DoorBlock(STONE_PROPERTIES));
     public static RegistryObject<DoorBlock> SECRET_SOAPSTONE_TILES_DOOR = registerDoorBlock("soapstone_tiles", "Soapstone Tiles", () -> new DoorBlock(STONE_PROPERTIES));
     public static RegistryObject<DoorBlock> SECRET_MAGMATIC_STONE_DOOR = registerDoorBlock("magmatic_stone", "Magmatic Stone", () -> new DoorBlock(STONE_PROPERTIES));
-    public static RegistryObject<DoorBlock> SECRET_THERIUM_DOOR = registerDoorBlock("therium", "Therium", () -> new DoorBlock(STONE_PROPERTIES));
+    public static RegistryObject<DoorBlock> SECRET_CHISELED_THERIUM_DOOR = registerDoorBlock("chiseled_therium", "Chiseled Therium", () -> new DoorBlock(STONE_PROPERTIES));
     public static RegistryObject<DoorBlock> SECRET_CRYPTIC_STONE_DOOR = registerDoorBlock("cryptic_stone", "Cryptic Stone", () -> new DoorBlock(STONE_PROPERTIES));
 
 
@@ -367,7 +370,7 @@ public class SBYGBlocks {
     public static RegistryObject<TrapDoorBlock> SECRET_HOLLY_PLANK_TRAPDOOR = registerPlankTrapdoorBlock("holly", "Holly", () -> new TrapDoorBlock(WOOD_PROPERTIES));
     public static RegistryObject<TrapDoorBlock> SECRET_JACARANDA_PLANK_TRAPDOOR = registerPlankTrapdoorBlock("jacaranda", "Jacaranda", () -> new TrapDoorBlock(WOOD_PROPERTIES));
     public static RegistryObject<TrapDoorBlock> SECRET_MAHOGANY_PLANK_TRAPDOOR = registerPlankTrapdoorBlock("mahogany", "Mahogany", () -> new TrapDoorBlock(WOOD_PROPERTIES));
-    public static RegistryObject<TrapDoorBlock> SECRET_MANGROVE_PLANK_TRAPDOOR = registerPlankTrapdoorBlock("mangrove", "Mangrove", () -> new TrapDoorBlock(WOOD_PROPERTIES));
+    public static RegistryObject<TrapDoorBlock> SECRET_WHITE_MANGROVE_PLANK_TRAPDOOR = registerPlankTrapdoorBlock("white_mangrove", "White Mangrove", () -> new TrapDoorBlock(WOOD_PROPERTIES));
     public static RegistryObject<TrapDoorBlock> SECRET_MAPLE_PLANK_TRAPDOOR = registerPlankTrapdoorBlock("maple", "Maple", () -> new TrapDoorBlock(WOOD_PROPERTIES));
     public static RegistryObject<TrapDoorBlock> SECRET_PINE_PLANK_TRAPDOOR = registerPlankTrapdoorBlock("pine", "Pine", () -> new TrapDoorBlock(WOOD_PROPERTIES));
     public static RegistryObject<TrapDoorBlock> SECRET_RAINBOW_EUCALYPTUS_PLANK_TRAPDOOR = registerPlankTrapdoorBlock("rainbow_eucalyptus", "Rainbow Eucalyptus", () -> new TrapDoorBlock(WOOD_PROPERTIES));
@@ -397,7 +400,7 @@ public class SBYGBlocks {
     public static RegistryObject<TrapDoorBlock> SECRET_HOLLY_LOG_TRAPDOOR = registerLogTrapdoorBlock("holly", "Holly", () -> new TrapDoorBlock(WOOD_PROPERTIES));
     public static RegistryObject<TrapDoorBlock> SECRET_JACARANDA_LOG_TRAPDOOR = registerLogTrapdoorBlock("jacaranda", "Jacaranda", () -> new TrapDoorBlock(WOOD_PROPERTIES));
     public static RegistryObject<TrapDoorBlock> SECRET_MAHOGANY_LOG_TRAPDOOR = registerLogTrapdoorBlock("mahogany", "Mahogany", () -> new TrapDoorBlock(WOOD_PROPERTIES));
-    public static RegistryObject<TrapDoorBlock> SECRET_MANGROVE_LOG_TRAPDOOR = registerLogTrapdoorBlock("mangrove", "Mangrove", () -> new TrapDoorBlock(WOOD_PROPERTIES));
+    public static RegistryObject<TrapDoorBlock> SECRET_WHITE_MANGROVE_LOG_TRAPDOOR = registerLogTrapdoorBlock("white_mangrove", "White Mangrove", () -> new TrapDoorBlock(WOOD_PROPERTIES));
     public static RegistryObject<TrapDoorBlock> SECRET_MAPLE_LOG_TRAPDOOR = registerLogTrapdoorBlock("maple", "Maple", () -> new TrapDoorBlock(WOOD_PROPERTIES));
     public static RegistryObject<TrapDoorBlock> SECRET_PINE_LOG_TRAPDOOR = registerLogTrapdoorBlock("pine", "Pine", () -> new TrapDoorBlock(WOOD_PROPERTIES));
     public static RegistryObject<TrapDoorBlock> SECRET_RAINBOW_EUCALYPTUS_LOG_TRAPDOOR = registerLogTrapdoorBlock("rainbow_eucalyptus", "Rainbow Eucalyptus", () -> new TrapDoorBlock(WOOD_PROPERTIES));
@@ -414,6 +417,7 @@ public class SBYGBlocks {
     public static RegistryObject<TrapDoorBlock> SECRET_NIGHTSHADE_LOG_TRAPDOOR = registerLogTrapdoorBlock("nightshade", "Nightshade", () -> new TrapDoorBlock(WOOD_PROPERTIES));
     public static RegistryObject<TrapDoorBlock> SECRET_ETHER_LOG_TRAPDOOR = registerLogTrapdoorBlock("ether", "Ether", () -> new TrapDoorBlock(WOOD_PROPERTIES));
     public static RegistryObject<TrapDoorBlock> SECRET_IMPARIUS_STEM_TRAPDOOR = registerStemTrapdoorBlock("imparius", "Imparius", () -> new TrapDoorBlock(WOOD_PROPERTIES));
+    public static RegistryObject<TrapDoorBlock> SECRET_PALO_VERDE_LOG_TRAPDOOR = registerLogTrapdoorBlock("palo_verde", "Palo Verde", () -> new TrapDoorBlock(WOOD_PROPERTIES));
 
 
     public static RegistryObject<TrapDoorBlock> SECRET_STRIPPED_ASPEN_LOG_TRAPDOOR = registerStrippedLogTrapdoorBlock("aspen", "Aspen", () -> new TrapDoorBlock(WOOD_PROPERTIES));
@@ -428,7 +432,7 @@ public class SBYGBlocks {
     public static RegistryObject<TrapDoorBlock> SECRET_STRIPPED_HOLLY_LOG_TRAPDOOR = registerStrippedLogTrapdoorBlock("holly", "Holly", () -> new TrapDoorBlock(WOOD_PROPERTIES));
     public static RegistryObject<TrapDoorBlock> SECRET_STRIPPED_JACARANDA_LOG_TRAPDOOR = registerStrippedLogTrapdoorBlock("jacaranda", "Jacaranda", () -> new TrapDoorBlock(WOOD_PROPERTIES));
     public static RegistryObject<TrapDoorBlock> SECRET_STRIPPED_MAHOGANY_LOG_TRAPDOOR = registerStrippedLogTrapdoorBlock("mahogany", "Mahogany", () -> new TrapDoorBlock(WOOD_PROPERTIES));
-    public static RegistryObject<TrapDoorBlock> SECRET_STRIPPED_MANGROVE_LOG_TRAPDOOR = registerStrippedLogTrapdoorBlock("mangrove", "Mangrove", () -> new TrapDoorBlock(WOOD_PROPERTIES));
+    public static RegistryObject<TrapDoorBlock> SECRET_STRIPPED_WHITE_MANGROVE_LOG_TRAPDOOR = registerStrippedLogTrapdoorBlock("white_mangrove", "White Mangrove", () -> new TrapDoorBlock(WOOD_PROPERTIES));
     public static RegistryObject<TrapDoorBlock> SECRET_STRIPPED_MAPLE_LOG_TRAPDOOR = registerStrippedLogTrapdoorBlock("maple", "Maple", () -> new TrapDoorBlock(WOOD_PROPERTIES));
     public static RegistryObject<TrapDoorBlock> SECRET_STRIPPED_PINE_LOG_TRAPDOOR = registerStrippedLogTrapdoorBlock("pine", "Pine", () -> new TrapDoorBlock(WOOD_PROPERTIES));
     public static RegistryObject<TrapDoorBlock> SECRET_STRIPPED_RAINBOW_EUCALYPTUS_LOG_TRAPDOOR = registerStrippedLogTrapdoorBlock("rainbow_eucalyptus", "Rainbow Eucalyptus", () -> new TrapDoorBlock(WOOD_PROPERTIES));
@@ -444,8 +448,7 @@ public class SBYGBlocks {
     public static RegistryObject<TrapDoorBlock> SECRET_STRIPPED_BULBIS_STEM_TRAPDOOR = registerStrippedStemTrapdoorBlock("bulbis", "Bulbis", () -> new TrapDoorBlock(WOOD_PROPERTIES));
     public static RegistryObject<TrapDoorBlock> SECRET_STRIPPED_NIGHTSHADE_LOG_TRAPDOOR = registerStrippedLogTrapdoorBlock("nightshade", "Nightshade", () -> new TrapDoorBlock(WOOD_PROPERTIES));
     public static RegistryObject<TrapDoorBlock> SECRET_STRIPPED_ETHER_LOG_TRAPDOOR = registerStrippedLogTrapdoorBlock("ether", "Ether", () -> new TrapDoorBlock(WOOD_PROPERTIES));
-
-
+    public static RegistryObject<TrapDoorBlock> SECRET_STRIPPED_PALO_VERDE_LOG_TRAPDOOR = registerStrippedLogTrapdoorBlock("palo_verde", "Palo Verde", () -> new TrapDoorBlock(WOOD_PROPERTIES));
 
     public static RegistryObject<TrapDoorBlock> SECRET_ASPEN_BOOKSHELF_TRAPDOOR = registerBookshelfTrapdoorBlock("aspen", "Aspen", () -> new TrapDoorBlock(WOOD_PROPERTIES));
     public static RegistryObject<TrapDoorBlock> SECRET_BAOBAB_BOOKSHELF_TRAPDOOR = registerBookshelfTrapdoorBlock("baobab", "Baobab", () -> new TrapDoorBlock(WOOD_PROPERTIES));
@@ -459,7 +462,7 @@ public class SBYGBlocks {
     public static RegistryObject<TrapDoorBlock> SECRET_HOLLY_BOOKSHELF_TRAPDOOR = registerBookshelfTrapdoorBlock("holly", "Holly", () -> new TrapDoorBlock(WOOD_PROPERTIES));
     public static RegistryObject<TrapDoorBlock> SECRET_JACARANDA_BOOKSHELF_TRAPDOOR = registerBookshelfTrapdoorBlock("jacaranda", "Jacaranda", () -> new TrapDoorBlock(WOOD_PROPERTIES));
     public static RegistryObject<TrapDoorBlock> SECRET_MAHOGANY_BOOKSHELF_TRAPDOOR = registerBookshelfTrapdoorBlock("mahogany", "Mahogany", () -> new TrapDoorBlock(WOOD_PROPERTIES));
-    public static RegistryObject<TrapDoorBlock> SECRET_MANGROVE_BOOKSHELF_TRAPDOOR = registerBookshelfTrapdoorBlock("mangrove", "Mangrove", () -> new TrapDoorBlock(WOOD_PROPERTIES));
+    public static RegistryObject<TrapDoorBlock> SECRET_WHITE_MANGROVE_BOOKSHELF_TRAPDOOR = registerBookshelfTrapdoorBlock("white_mangrove", "White Mangrove", () -> new TrapDoorBlock(WOOD_PROPERTIES));
     public static RegistryObject<TrapDoorBlock> SECRET_MAPLE_BOOKSHELF_TRAPDOOR = registerBookshelfTrapdoorBlock("maple", "Maple", () -> new TrapDoorBlock(WOOD_PROPERTIES));
     public static RegistryObject<TrapDoorBlock> SECRET_PINE_BOOKSHELF_TRAPDOOR = registerBookshelfTrapdoorBlock("pine", "Pine", () -> new TrapDoorBlock(WOOD_PROPERTIES));
     public static RegistryObject<TrapDoorBlock> SECRET_RAINBOW_EUCALYPTUS_BOOKSHELF_TRAPDOOR = registerBookshelfTrapdoorBlock("rainbow_eucalyptus", "Rainbow Eucalyptus", () -> new TrapDoorBlock(WOOD_PROPERTIES));
@@ -476,7 +479,6 @@ public class SBYGBlocks {
     public static RegistryObject<TrapDoorBlock> SECRET_NIGHTSHADE_BOOKSHELF_TRAPDOOR = registerBookshelfTrapdoorBlock("nightshade", "Nightshade", () -> new TrapDoorBlock(WOOD_PROPERTIES));
     public static RegistryObject<TrapDoorBlock> SECRET_ETHER_BOOKSHELF_TRAPDOOR = registerBookshelfTrapdoorBlock("ether", "Ether", () -> new TrapDoorBlock(WOOD_PROPERTIES));
     public static RegistryObject<TrapDoorBlock> SECRET_IMPARIUS_BOOKSHELF_TRAPDOOR = registerBookshelfTrapdoorBlock("imparius", "Imparius", () -> new TrapDoorBlock(WOOD_PROPERTIES));
-
 
     public static RegistryObject<TrapDoorBlock> SECRET_WHITE_SANDSTONE_TRAPDOOR = registerSandstoneTrapdoorBlock("white", "White", () -> new TrapDoorBlock(STONE_PROPERTIES));
     public static RegistryObject<TrapDoorBlock> SECRET_CUT_WHITE_SANDSTONE_TRAPDOOR = registerSandstoneTrapdoorBlock("cut_white", "Cut White", () -> new TrapDoorBlock(STONE_PROPERTIES));
@@ -501,7 +503,6 @@ public class SBYGBlocks {
     public static RegistryObject<TrapDoorBlock> SECRET_BLUE_NETHER_BRICK_TRAPDOOR = registerTrapdoorBlock("blue_nether_bricks", "Blue Nether Bricks", () -> new TrapDoorBlock(NETHERBRICK_PROPERTIES));
     public static RegistryObject<TrapDoorBlock> SECRET_YELLOW_NETHER_BRICK_TRAPDOOR = registerTrapdoorBlock("yellow_nether_bricks", "Yellow Nether Bricks", () -> new TrapDoorBlock(NETHERBRICK_PROPERTIES));
 
-    public static RegistryObject<TrapDoorBlock> SECRET_MUD_BRICKS_TRAPDOOR = registerTrapdoorBlock("mud_bricks", "Mud Bricks", () -> new TrapDoorBlock(STONE_PROPERTIES));
     public static RegistryObject<TrapDoorBlock> SECRET_BRIMSTONE_TRAPDOOR = registerTrapdoorBlock("brimstone", "Brimstone", () -> new TrapDoorBlock(STONE_PROPERTIES));
     public static RegistryObject<TrapDoorBlock> SECRET_PURPUR_STONE_TRAPDOOR = registerTrapdoorBlock("purpur_stone", "Purpur Stone", () -> new TrapDoorBlock(STONE_PROPERTIES));
     public static RegistryObject<TrapDoorBlock> SECRET_ETHER_STONE_TRAPDOOR = registerTrapdoorBlock("ether_stone", "Ether Stone", () -> new TrapDoorBlock(STONE_PROPERTIES));
@@ -523,7 +524,7 @@ public class SBYGBlocks {
     public static RegistryObject<TrapDoorBlock> SECRET_SOAPSTONE_BRICKS_TRAPDOOR = registerTrapdoorBlock("soapstone_bricks", "Soapstone Bricks", () -> new TrapDoorBlock(STONE_PROPERTIES));
     public static RegistryObject<TrapDoorBlock> SECRET_SOAPSTONE_TILES_TRAPDOOR = registerTrapdoorBlock("soapstone_tiles", "Soapstone Tiles", () -> new TrapDoorBlock(STONE_PROPERTIES));
     public static RegistryObject<TrapDoorBlock> SECRET_MAGMATIC_STONE_TRAPDOOR = registerTrapdoorBlock("magmatic_stone", "Magmatic Stone", () -> new TrapDoorBlock(STONE_PROPERTIES));
-    public static RegistryObject<TrapDoorBlock> SECRET_THERIUM_TRAPDOOR = registerTrapdoorBlock("therium", "Therium", () -> new TrapDoorBlock(STONE_PROPERTIES));
+    public static RegistryObject<TrapDoorBlock> SECRET_CHISELED_THERIUM_TRAPDOOR = registerTrapdoorBlock("chiseled_therium", "Chiseled Therium", () -> new TrapDoorBlock(STONE_PROPERTIES));
     public static RegistryObject<TrapDoorBlock> SECRET_CRYPTIC_STONE_TRAPDOOR = registerTrapdoorBlock("cryptic_stone", "Cryptic Stone", () -> new TrapDoorBlock(STONE_PROPERTIES));
 
 }

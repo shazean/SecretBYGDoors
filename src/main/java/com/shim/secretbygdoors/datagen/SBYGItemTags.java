@@ -24,6 +24,9 @@ public class SBYGItemTags extends ItemTagsProvider {
         this.copy(SDTags.Blocks.SECRET_LOG_DOORS, SDTags.Items.SECRET_LOG_DOORS);
         this.copy(SDTags.Blocks.SECRET_LOG_TRAPDOORS, SDTags.Items.SECRET_LOG_TRAPDOORS);
 
+        this.copy(SDTags.Blocks.SECRET_BOOKSHELF_DOORS, SDTags.Items.SECRET_BOOKSHELF_DOORS);
+        this.copy(SDTags.Blocks.SECRET_BOOKSHELF_TRAPDOORS, SDTags.Items.SECRET_BOOKSHELF_TRAPDOORS);
+
         this.copy(SDTags.Blocks.SECRET_WOODEN_DOORS, SDTags.Items.SECRET_WOODEN_DOORS);
         this.copy(SDTags.Blocks.SECRET_WOODEN_TRAPDOORS, SDTags.Items.SECRET_WOODEN_TRAPDOORS);
 

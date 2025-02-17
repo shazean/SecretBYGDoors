@@ -2,6 +2,7 @@ package com.shim.secretbygdoors.datagen;
 
 import com.shim.secretbygdoors.SBYGBlocks;
 import com.shim.secretbygdoors.SecretBYGDoors;
+import com.shim.secretdoors.SecretDoors;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.Block;
@@ -30,7 +31,7 @@ public class ItemModels extends ItemModelProvider {
         generatedModel(SBYGBlocks.SECRET_HOLLY_PLANK_DOOR.get());
         generatedModel(SBYGBlocks.SECRET_JACARANDA_PLANK_DOOR.get());
         generatedModel(SBYGBlocks.SECRET_MAHOGANY_PLANK_DOOR.get());
-        generatedModel(SBYGBlocks.SECRET_MANGROVE_PLANK_DOOR.get());
+        generatedModel(SBYGBlocks.SECRET_WHITE_MANGROVE_PLANK_DOOR.get());
         generatedModel(SBYGBlocks.SECRET_MAPLE_PLANK_DOOR.get());
         generatedModel(SBYGBlocks.SECRET_PINE_PLANK_DOOR.get());
         generatedModel(SBYGBlocks.SECRET_RAINBOW_EUCALYPTUS_PLANK_DOOR.get());
@@ -60,7 +61,7 @@ public class ItemModels extends ItemModelProvider {
         generatedModel(SBYGBlocks.SECRET_HOLLY_LOG_DOOR.get());
         generatedModel(SBYGBlocks.SECRET_JACARANDA_LOG_DOOR.get());
         generatedModel(SBYGBlocks.SECRET_MAHOGANY_LOG_DOOR.get());
-        generatedModel(SBYGBlocks.SECRET_MANGROVE_LOG_DOOR.get());
+        generatedModel(SBYGBlocks.SECRET_WHITE_MANGROVE_LOG_DOOR.get());
         generatedModel(SBYGBlocks.SECRET_MAPLE_LOG_DOOR.get());
         generatedModel(SBYGBlocks.SECRET_PINE_LOG_DOOR.get());
         generatedModel(SBYGBlocks.SECRET_RAINBOW_EUCALYPTUS_LOG_DOOR.get());
@@ -77,6 +78,7 @@ public class ItemModels extends ItemModelProvider {
         generatedModel(SBYGBlocks.SECRET_NIGHTSHADE_LOG_DOOR.get());
         generatedModel(SBYGBlocks.SECRET_ETHER_LOG_DOOR.get());
         generatedModel(SBYGBlocks.SECRET_IMPARIUS_STEM_DOOR.get());
+        generatedModel(SBYGBlocks.SECRET_PALO_VERDE_LOG_DOOR.get());
 
         generatedModel(SBYGBlocks.SECRET_STRIPPED_ASPEN_LOG_DOOR.get());
         generatedModel(SBYGBlocks.SECRET_STRIPPED_BAOBAB_LOG_DOOR.get());
@@ -90,7 +92,7 @@ public class ItemModels extends ItemModelProvider {
         generatedModel(SBYGBlocks.SECRET_STRIPPED_HOLLY_LOG_DOOR.get());
         generatedModel(SBYGBlocks.SECRET_STRIPPED_JACARANDA_LOG_DOOR.get());
         generatedModel(SBYGBlocks.SECRET_STRIPPED_MAHOGANY_LOG_DOOR.get());
-        generatedModel(SBYGBlocks.SECRET_STRIPPED_MANGROVE_LOG_DOOR.get());
+        generatedModel(SBYGBlocks.SECRET_STRIPPED_WHITE_MANGROVE_LOG_DOOR.get());
         generatedModel(SBYGBlocks.SECRET_STRIPPED_MAPLE_LOG_DOOR.get());
         generatedModel(SBYGBlocks.SECRET_STRIPPED_PINE_LOG_DOOR.get());
         generatedModel(SBYGBlocks.SECRET_STRIPPED_RAINBOW_EUCALYPTUS_LOG_DOOR.get());
@@ -106,6 +108,7 @@ public class ItemModels extends ItemModelProvider {
         generatedModel(SBYGBlocks.SECRET_STRIPPED_BULBIS_STEM_DOOR.get());
         generatedModel(SBYGBlocks.SECRET_STRIPPED_NIGHTSHADE_LOG_DOOR.get());
         generatedModel(SBYGBlocks.SECRET_STRIPPED_ETHER_LOG_DOOR.get());
+        generatedModel(SBYGBlocks.SECRET_STRIPPED_PALO_VERDE_LOG_DOOR.get());
 
         generatedModel(SBYGBlocks.SECRET_STRIPPED_HORIZONTAL_ASPEN_LOG_DOOR.get());
         generatedModel(SBYGBlocks.SECRET_STRIPPED_HORIZONTAL_BAOBAB_LOG_DOOR.get());
@@ -119,7 +122,7 @@ public class ItemModels extends ItemModelProvider {
         generatedModel(SBYGBlocks.SECRET_STRIPPED_HORIZONTAL_HOLLY_LOG_DOOR.get());
         generatedModel(SBYGBlocks.SECRET_STRIPPED_HORIZONTAL_JACARANDA_LOG_DOOR.get());
         generatedModel(SBYGBlocks.SECRET_STRIPPED_HORIZONTAL_MAHOGANY_LOG_DOOR.get());
-        generatedModel(SBYGBlocks.SECRET_STRIPPED_HORIZONTAL_MANGROVE_LOG_DOOR.get());
+        generatedModel(SBYGBlocks.SECRET_STRIPPED_HORIZONTAL_WHITE_MANGROVE_LOG_DOOR.get());
         generatedModel(SBYGBlocks.SECRET_STRIPPED_HORIZONTAL_MAPLE_LOG_DOOR.get());
         generatedModel(SBYGBlocks.SECRET_STRIPPED_HORIZONTAL_PINE_LOG_DOOR.get());
         generatedModel(SBYGBlocks.SECRET_STRIPPED_HORIZONTAL_RAINBOW_EUCALYPTUS_LOG_DOOR.get());
@@ -135,6 +138,7 @@ public class ItemModels extends ItemModelProvider {
         generatedModel(SBYGBlocks.SECRET_STRIPPED_HORIZONTAL_BULBIS_STEM_DOOR.get());
         generatedModel(SBYGBlocks.SECRET_STRIPPED_HORIZONTAL_NIGHTSHADE_LOG_DOOR.get());
         generatedModel(SBYGBlocks.SECRET_STRIPPED_HORIZONTAL_ETHER_LOG_DOOR.get());
+        generatedModel(SBYGBlocks.SECRET_STRIPPED_HORIZONTAL_PALO_VERDE_LOG_DOOR.get());
 
         generatedModel(SBYGBlocks.SECRET_HORIZONTAL_ASPEN_LOG_DOOR.get());
         generatedModel(SBYGBlocks.SECRET_HORIZONTAL_BAOBAB_LOG_DOOR.get());
@@ -148,7 +152,7 @@ public class ItemModels extends ItemModelProvider {
         generatedModel(SBYGBlocks.SECRET_HORIZONTAL_HOLLY_LOG_DOOR.get());
         generatedModel(SBYGBlocks.SECRET_HORIZONTAL_JACARANDA_LOG_DOOR.get());
         generatedModel(SBYGBlocks.SECRET_HORIZONTAL_MAHOGANY_LOG_DOOR.get());
-        generatedModel(SBYGBlocks.SECRET_HORIZONTAL_MANGROVE_LOG_DOOR.get());
+        generatedModel(SBYGBlocks.SECRET_HORIZONTAL_WHITE_MANGROVE_LOG_DOOR.get());
         generatedModel(SBYGBlocks.SECRET_HORIZONTAL_MAPLE_LOG_DOOR.get());
         generatedModel(SBYGBlocks.SECRET_HORIZONTAL_PINE_LOG_DOOR.get());
         generatedModel(SBYGBlocks.SECRET_HORIZONTAL_RAINBOW_EUCALYPTUS_LOG_DOOR.get());
@@ -165,6 +169,7 @@ public class ItemModels extends ItemModelProvider {
         generatedModel(SBYGBlocks.SECRET_HORIZONTAL_NIGHTSHADE_LOG_DOOR.get());
         generatedModel(SBYGBlocks.SECRET_HORIZONTAL_ETHER_LOG_DOOR.get());
         generatedModel(SBYGBlocks.SECRET_HORIZONTAL_IMPARIUS_STEM_DOOR.get());
+        generatedModel(SBYGBlocks.SECRET_HORIZONTAL_PALO_VERDE_LOG_DOOR.get());
 
         generatedModel(SBYGBlocks.SECRET_ASPEN_BOOKSHELF_DOOR.get());
         generatedModel(SBYGBlocks.SECRET_BAOBAB_BOOKSHELF_DOOR.get());
@@ -178,7 +183,7 @@ public class ItemModels extends ItemModelProvider {
         generatedModel(SBYGBlocks.SECRET_HOLLY_BOOKSHELF_DOOR.get());
         generatedModel(SBYGBlocks.SECRET_JACARANDA_BOOKSHELF_DOOR.get());
         generatedModel(SBYGBlocks.SECRET_MAHOGANY_BOOKSHELF_DOOR.get());
-        generatedModel(SBYGBlocks.SECRET_MANGROVE_BOOKSHELF_DOOR.get());
+        generatedModel(SBYGBlocks.SECRET_WHITE_MANGROVE_BOOKSHELF_DOOR.get());
         generatedModel(SBYGBlocks.SECRET_MAPLE_BOOKSHELF_DOOR.get());
         generatedModel(SBYGBlocks.SECRET_PINE_BOOKSHELF_DOOR.get());
         generatedModel(SBYGBlocks.SECRET_RAINBOW_EUCALYPTUS_BOOKSHELF_DOOR.get());
@@ -219,7 +224,6 @@ public class ItemModels extends ItemModelProvider {
         generatedModel(SBYGBlocks.SECRET_BLUE_NETHER_BRICK_DOOR.get());
         generatedModel(SBYGBlocks.SECRET_YELLOW_NETHER_BRICK_DOOR.get());
 
-        generatedModel(SBYGBlocks.SECRET_MUD_BRICKS_DOOR.get());
         generatedModel(SBYGBlocks.SECRET_BRIMSTONE_DOOR.get());
         generatedModel(SBYGBlocks.SECRET_PURPUR_STONE_DOOR.get());
         generatedModel(SBYGBlocks.SECRET_ETHER_STONE_DOOR.get());
@@ -241,7 +245,7 @@ public class ItemModels extends ItemModelProvider {
         generatedModel(SBYGBlocks.SECRET_SOAPSTONE_BRICKS_DOOR.get());
         generatedModel(SBYGBlocks.SECRET_SOAPSTONE_TILES_DOOR.get());
         generatedModel(SBYGBlocks.SECRET_MAGMATIC_STONE_DOOR.get());
-        generatedModel(SBYGBlocks.SECRET_THERIUM_DOOR.get());
+        generatedModel(SBYGBlocks.SECRET_CHISELED_THERIUM_DOOR.get());
         generatedModel(SBYGBlocks.SECRET_CRYPTIC_STONE_DOOR.get());
 
 
@@ -257,7 +261,7 @@ public class ItemModels extends ItemModelProvider {
         trapdoorModel(SBYGBlocks.SECRET_HOLLY_PLANK_TRAPDOOR.get());
         trapdoorModel(SBYGBlocks.SECRET_JACARANDA_PLANK_TRAPDOOR.get());
         trapdoorModel(SBYGBlocks.SECRET_MAHOGANY_PLANK_TRAPDOOR.get());
-        trapdoorModel(SBYGBlocks.SECRET_MANGROVE_PLANK_TRAPDOOR.get());
+        trapdoorModel(SBYGBlocks.SECRET_WHITE_MANGROVE_PLANK_TRAPDOOR.get());
         trapdoorModel(SBYGBlocks.SECRET_MAPLE_PLANK_TRAPDOOR.get());
         trapdoorModel(SBYGBlocks.SECRET_PINE_PLANK_TRAPDOOR.get());
         trapdoorModel(SBYGBlocks.SECRET_RAINBOW_EUCALYPTUS_PLANK_TRAPDOOR.get());
@@ -287,7 +291,7 @@ public class ItemModels extends ItemModelProvider {
         trapdoorModel(SBYGBlocks.SECRET_HOLLY_LOG_TRAPDOOR.get());
         trapdoorModel(SBYGBlocks.SECRET_JACARANDA_LOG_TRAPDOOR.get());
         trapdoorModel(SBYGBlocks.SECRET_MAHOGANY_LOG_TRAPDOOR.get());
-        trapdoorModel(SBYGBlocks.SECRET_MANGROVE_LOG_TRAPDOOR.get());
+        trapdoorModel(SBYGBlocks.SECRET_WHITE_MANGROVE_LOG_TRAPDOOR.get());
         trapdoorModel(SBYGBlocks.SECRET_MAPLE_LOG_TRAPDOOR.get());
         trapdoorModel(SBYGBlocks.SECRET_PINE_LOG_TRAPDOOR.get());
         trapdoorModel(SBYGBlocks.SECRET_RAINBOW_EUCALYPTUS_LOG_TRAPDOOR.get());
@@ -304,6 +308,7 @@ public class ItemModels extends ItemModelProvider {
         trapdoorModel(SBYGBlocks.SECRET_NIGHTSHADE_LOG_TRAPDOOR.get());
         trapdoorModel(SBYGBlocks.SECRET_ETHER_LOG_TRAPDOOR.get());
         trapdoorModel(SBYGBlocks.SECRET_IMPARIUS_STEM_TRAPDOOR.get());
+        trapdoorModel(SBYGBlocks.SECRET_PALO_VERDE_LOG_TRAPDOOR.get());
 
         trapdoorModel(SBYGBlocks.SECRET_STRIPPED_ASPEN_LOG_TRAPDOOR.get());
         trapdoorModel(SBYGBlocks.SECRET_STRIPPED_BAOBAB_LOG_TRAPDOOR.get());
@@ -317,7 +322,7 @@ public class ItemModels extends ItemModelProvider {
         trapdoorModel(SBYGBlocks.SECRET_STRIPPED_HOLLY_LOG_TRAPDOOR.get());
         trapdoorModel(SBYGBlocks.SECRET_STRIPPED_JACARANDA_LOG_TRAPDOOR.get());
         trapdoorModel(SBYGBlocks.SECRET_STRIPPED_MAHOGANY_LOG_TRAPDOOR.get());
-        trapdoorModel(SBYGBlocks.SECRET_STRIPPED_MANGROVE_LOG_TRAPDOOR.get());
+        trapdoorModel(SBYGBlocks.SECRET_STRIPPED_WHITE_MANGROVE_LOG_TRAPDOOR.get());
         trapdoorModel(SBYGBlocks.SECRET_STRIPPED_MAPLE_LOG_TRAPDOOR.get());
         trapdoorModel(SBYGBlocks.SECRET_STRIPPED_PINE_LOG_TRAPDOOR.get());
         trapdoorModel(SBYGBlocks.SECRET_STRIPPED_RAINBOW_EUCALYPTUS_LOG_TRAPDOOR.get());
@@ -333,6 +338,7 @@ public class ItemModels extends ItemModelProvider {
         trapdoorModel(SBYGBlocks.SECRET_STRIPPED_BULBIS_STEM_TRAPDOOR.get());
         trapdoorModel(SBYGBlocks.SECRET_STRIPPED_NIGHTSHADE_LOG_TRAPDOOR.get());
         trapdoorModel(SBYGBlocks.SECRET_STRIPPED_ETHER_LOG_TRAPDOOR.get());
+        trapdoorModel(SBYGBlocks.SECRET_STRIPPED_PALO_VERDE_LOG_TRAPDOOR.get());
 
         trapdoorModel(SBYGBlocks.SECRET_ASPEN_BOOKSHELF_TRAPDOOR.get());
         trapdoorModel(SBYGBlocks.SECRET_BAOBAB_BOOKSHELF_TRAPDOOR.get());
@@ -346,7 +352,7 @@ public class ItemModels extends ItemModelProvider {
         trapdoorModel(SBYGBlocks.SECRET_HOLLY_BOOKSHELF_TRAPDOOR.get());
         trapdoorModel(SBYGBlocks.SECRET_JACARANDA_BOOKSHELF_TRAPDOOR.get());
         trapdoorModel(SBYGBlocks.SECRET_MAHOGANY_BOOKSHELF_TRAPDOOR.get());
-        trapdoorModel(SBYGBlocks.SECRET_MANGROVE_BOOKSHELF_TRAPDOOR.get());
+        trapdoorModel(SBYGBlocks.SECRET_WHITE_MANGROVE_BOOKSHELF_TRAPDOOR.get());
         trapdoorModel(SBYGBlocks.SECRET_MAPLE_BOOKSHELF_TRAPDOOR.get());
         trapdoorModel(SBYGBlocks.SECRET_PINE_BOOKSHELF_TRAPDOOR.get());
         trapdoorModel(SBYGBlocks.SECRET_RAINBOW_EUCALYPTUS_BOOKSHELF_TRAPDOOR.get());
@@ -387,7 +393,6 @@ public class ItemModels extends ItemModelProvider {
         trapdoorModel(SBYGBlocks.SECRET_BLUE_NETHER_BRICK_TRAPDOOR.get());
         trapdoorModel(SBYGBlocks.SECRET_YELLOW_NETHER_BRICK_TRAPDOOR.get());
 
-        trapdoorModel(SBYGBlocks.SECRET_MUD_BRICKS_TRAPDOOR.get());
         trapdoorModel(SBYGBlocks.SECRET_BRIMSTONE_TRAPDOOR.get());
         trapdoorModel(SBYGBlocks.SECRET_PURPUR_STONE_TRAPDOOR.get());
         trapdoorModel(SBYGBlocks.SECRET_ETHER_STONE_TRAPDOOR.get());
@@ -409,18 +414,18 @@ public class ItemModels extends ItemModelProvider {
         trapdoorModel(SBYGBlocks.SECRET_SOAPSTONE_BRICKS_TRAPDOOR.get());
         trapdoorModel(SBYGBlocks.SECRET_SOAPSTONE_TILES_TRAPDOOR.get());
         trapdoorModel(SBYGBlocks.SECRET_MAGMATIC_STONE_TRAPDOOR.get());
-        trapdoorModel(SBYGBlocks.SECRET_THERIUM_TRAPDOOR.get());
+        trapdoorModel(SBYGBlocks.SECRET_CHISELED_THERIUM_TRAPDOOR.get());
         trapdoorModel(SBYGBlocks.SECRET_CRYPTIC_STONE_TRAPDOOR.get());
 
 
     }
 
     public void generatedModel(Block item) {
-        singleTexture(item.getRegistryName().getPath(), new ResourceLocation("item/generated"), "layer0", new ResourceLocation(SecretBYGDoors.MODID, "item/" + item.getRegistryName().getPath()));
+        singleTexture(SecretDoors.name(item), new ResourceLocation("item/generated"), "layer0", new ResourceLocation(SecretBYGDoors.MODID, "item/" + SecretDoors.name(item)));
     }
 
     public void trapdoorModel(Block item) {
-        withExistingParent(item.getRegistryName().getPath(), modLoc("block/" + item.getRegistryName().getPath() + "_bottom"));
+        withExistingParent(SecretDoors.name(item), modLoc("block/" + SecretDoors.name(item) + "_bottom"));
     }
 
 }
