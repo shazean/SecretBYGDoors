@@ -2,14 +2,13 @@ package com.shim.secretbygdoors.datagen;
 
 import com.shim.secretbygdoors.SBYGBlocks;
 import com.shim.secretbygdoors.SecretBYGDoors;
+import corgiaoc.byg.BYG;
+import net.minecraft.block.DoorBlock;
+import net.minecraft.block.TrapDoorBlock;
 import net.minecraft.data.DataGenerator;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.world.level.block.DoorBlock;
-import net.minecraft.world.level.block.TrapDoorBlock;
+import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
-import net.minecraftforge.registries.RegistryObject;
-import potionstudios.byg.BYG;
 
 public class BlockStates extends BlockStateProvider {
 
@@ -219,9 +218,6 @@ public class BlockStates extends BlockStateProvider {
         secretDoorBlock(SBYGBlocks.SECRET_PINK_SANDSTONE_DOOR.get(), "pink_sandstone");
         secretDoorBlock(SBYGBlocks.SECRET_CUT_PINK_SANDSTONE_DOOR.get(), "pink_cut_sandstone");
         secretDoorBlock(SBYGBlocks.SECRET_SMOOTH_PINK_SANDSTONE_DOOR.get(), "pink_sandstone_top");
-        secretDoorBlock(SBYGBlocks.SECRET_WINDSWEPT_SANDSTONE_DOOR.get(), "windswept_sandstone");
-        secretDoorBlock(SBYGBlocks.SECRET_CUT_WINDSWEPT_SANDSTONE_DOOR.get(), "cut_windswept_sandstone");
-        secretDoorBlock(SBYGBlocks.SECRET_SMOOTH_WINDSWEPT_SANDSTONE_DOOR.get(), "windswept_sandstone_top");
 
         secretDoorBlock(SBYGBlocks.SECRET_BLUE_NETHERRACK_DOOR.get(), "blue_netherrack");
         secretDoorBlock(SBYGBlocks.SECRET_BLUE_NETHER_BRICK_DOOR.get(), "blue_nether_bricks");
@@ -389,9 +385,6 @@ public class BlockStates extends BlockStateProvider {
         secretTrapdoorBlock(SBYGBlocks.SECRET_PINK_SANDSTONE_TRAPDOOR.get(), "pink_sandstone");
         secretTrapdoorBlock(SBYGBlocks.SECRET_CUT_PINK_SANDSTONE_TRAPDOOR.get(), "pink_cut_sandstone");
         secretTrapdoorBlock(SBYGBlocks.SECRET_SMOOTH_PINK_SANDSTONE_TRAPDOOR.get(), "pink_sandstone_top");
-        secretTrapdoorBlock(SBYGBlocks.SECRET_WINDSWEPT_SANDSTONE_TRAPDOOR.get(), "windswept_sandstone");
-        secretTrapdoorBlock(SBYGBlocks.SECRET_CUT_WINDSWEPT_SANDSTONE_TRAPDOOR.get(), "cut_windswept_sandstone");
-        secretTrapdoorBlock(SBYGBlocks.SECRET_SMOOTH_WINDSWEPT_SANDSTONE_TRAPDOOR.get(), "windswept_sandstone_top");
 
         secretTrapdoorBlock(SBYGBlocks.SECRET_BLUE_NETHERRACK_TRAPDOOR.get(), "blue_netherrack");
         secretTrapdoorBlock(SBYGBlocks.SECRET_BLUE_NETHER_BRICK_TRAPDOOR.get(), "blue_nether_bricks");

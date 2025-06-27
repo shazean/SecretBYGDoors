@@ -3,8 +3,8 @@ package com.shim.secretbygdoors.datagen;
 import com.shim.secretbygdoors.SBYGBlocks;
 import com.shim.secretbygdoors.SecretBYGDoors;
 import com.shim.secretdoors.registry.SDTags;
+import net.minecraft.data.BlockTagsProvider;
 import net.minecraft.data.DataGenerator;
-import net.minecraft.data.tags.BlockTagsProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
 
 public class SBYGBlockTags extends BlockTagsProvider {
@@ -15,7 +15,7 @@ public class SBYGBlockTags extends BlockTagsProvider {
 
     @Override
     protected void addTags() {
-        
+
         //---- DOORS -------------------------------------------------------------------------------
         tag(SDTags.Blocks.SECRET_WOODEN_PLANK_DOORS)
                 .add(SBYGBlocks.SECRET_ASPEN_PLANK_DOOR.get()).add(SBYGBlocks.SECRET_BAOBAB_PLANK_DOOR.get()).add(SBYGBlocks.SECRET_BLUE_ENCHANTED_PLANK_DOOR.get())
@@ -93,7 +93,6 @@ public class SBYGBlockTags extends BlockTagsProvider {
                 .add(SBYGBlocks.SECRET_BLACK_SANDSTONE_DOOR.get()).add(SBYGBlocks.SECRET_CUT_BLACK_SANDSTONE_DOOR.get()).add(SBYGBlocks.SECRET_SMOOTH_BLACK_SANDSTONE_DOOR.get())
                 .add(SBYGBlocks.SECRET_PURPLE_SANDSTONE_DOOR.get()).add(SBYGBlocks.SECRET_CUT_PURPLE_SANDSTONE_DOOR.get()).add(SBYGBlocks.SECRET_SMOOTH_PURPLE_SANDSTONE_DOOR.get())
                 .add(SBYGBlocks.SECRET_PINK_SANDSTONE_DOOR.get()).add(SBYGBlocks.SECRET_CUT_PINK_SANDSTONE_DOOR.get()).add(SBYGBlocks.SECRET_SMOOTH_PINK_SANDSTONE_DOOR.get())
-                .add(SBYGBlocks.SECRET_WINDSWEPT_SANDSTONE_DOOR.get()).add(SBYGBlocks.SECRET_CUT_WINDSWEPT_SANDSTONE_DOOR.get()).add(SBYGBlocks.SECRET_SMOOTH_WINDSWEPT_SANDSTONE_DOOR.get())
 
                 .add(SBYGBlocks.SECRET_MUD_BRICKS_DOOR.get()).add(SBYGBlocks.SECRET_BRIMSTONE_DOOR.get()).add(SBYGBlocks.SECRET_PURPUR_STONE_DOOR.get())
                 .add(SBYGBlocks.SECRET_ETHER_STONE_DOOR.get()).add(SBYGBlocks.SECRET_COBBLED_ETHER_DOOR.get()).add(SBYGBlocks.SECRET_DACITE_DOOR.get())
@@ -175,7 +174,6 @@ public class SBYGBlockTags extends BlockTagsProvider {
                 .add(SBYGBlocks.SECRET_BLACK_SANDSTONE_TRAPDOOR.get()).add(SBYGBlocks.SECRET_CUT_BLACK_SANDSTONE_TRAPDOOR.get()).add(SBYGBlocks.SECRET_SMOOTH_BLACK_SANDSTONE_TRAPDOOR.get())
                 .add(SBYGBlocks.SECRET_PURPLE_SANDSTONE_TRAPDOOR.get()).add(SBYGBlocks.SECRET_CUT_PURPLE_SANDSTONE_TRAPDOOR.get()).add(SBYGBlocks.SECRET_SMOOTH_PURPLE_SANDSTONE_TRAPDOOR.get())
                 .add(SBYGBlocks.SECRET_PINK_SANDSTONE_TRAPDOOR.get()).add(SBYGBlocks.SECRET_CUT_PINK_SANDSTONE_TRAPDOOR.get()).add(SBYGBlocks.SECRET_SMOOTH_PINK_SANDSTONE_TRAPDOOR.get())
-                .add(SBYGBlocks.SECRET_WINDSWEPT_SANDSTONE_TRAPDOOR.get()).add(SBYGBlocks.SECRET_CUT_WINDSWEPT_SANDSTONE_TRAPDOOR.get()).add(SBYGBlocks.SECRET_SMOOTH_WINDSWEPT_SANDSTONE_TRAPDOOR.get())
 
                 .add(SBYGBlocks.SECRET_MUD_BRICKS_TRAPDOOR.get()).add(SBYGBlocks.SECRET_BRIMSTONE_TRAPDOOR.get()).add(SBYGBlocks.SECRET_PURPUR_STONE_TRAPDOOR.get())
                 .add(SBYGBlocks.SECRET_ETHER_STONE_TRAPDOOR.get()).add(SBYGBlocks.SECRET_COBBLED_ETHER_TRAPDOOR.get()).add(SBYGBlocks.SECRET_DACITE_TRAPDOOR.get())

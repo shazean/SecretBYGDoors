@@ -4,7 +4,7 @@ import com.shim.secretbygdoors.SecretBYGDoors;
 import net.minecraft.data.DataGenerator;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.forge.event.lifecycle.GatherDataEvent;
+import net.minecraftforge.fml.event.lifecycle.GatherDataEvent;
 
 @Mod.EventBusSubscriber(modid = SecretBYGDoors.MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class DataGenerators {
@@ -14,7 +14,7 @@ public class DataGenerators {
         DataGenerator generator = event.getGenerator();
         if (event.includeServer()) {
             generator.addProvider(new SBYGRecipes(generator));
-            generator.addProvider(new LootTables(generator));
+            generator.addProvider(new SBYGLootTables(generator));
             SBYGBlockTags blockTags = new SBYGBlockTags(generator, event.getExistingFileHelper());
             generator.addProvider(blockTags);
             generator.addProvider(new SBYGItemTags(generator, blockTags, event.getExistingFileHelper()));

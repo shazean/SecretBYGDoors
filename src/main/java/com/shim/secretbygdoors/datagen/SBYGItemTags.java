@@ -1,10 +1,11 @@
 package com.shim.secretbygdoors.datagen;
 
 import com.shim.secretbygdoors.SecretBYGDoors;
+import com.shim.secretdoors.SecretDoors;
 import com.shim.secretdoors.registry.SDTags;
+import net.minecraft.data.BlockTagsProvider;
 import net.minecraft.data.DataGenerator;
-import net.minecraft.data.tags.BlockTagsProvider;
-import net.minecraft.data.tags.ItemTagsProvider;
+import net.minecraft.data.ItemTagsProvider;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.tags.ItemTags;
 import net.minecraftforge.common.data.ExistingFileHelper;

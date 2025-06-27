@@ -1,16 +1,16 @@
 package com.shim.secretbygdoors;
 
-import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.DoorBlock;
-import net.minecraft.world.level.block.SoundType;
-import net.minecraft.world.level.block.TrapDoorBlock;
-import net.minecraft.world.level.material.Material;
+import net.minecraft.block.Block;
+import net.minecraft.block.DoorBlock;
+import net.minecraft.block.SoundType;
+import net.minecraft.block.TrapDoorBlock;
+import net.minecraft.block.material.Material;
+import net.minecraft.item.BlockItem;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemGroup;
+import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.registries.RegistryObject;
 
 import java.util.HashMap;
 import java.util.LinkedList;
@@ -33,7 +33,7 @@ public class SBYGBlocks {
 
     private static <T extends DoorBlock> RegistryObject<T> registerDoorBlockBase(String nameIn, String localizationIn, Supplier<T> blockIn) {
         RegistryObject<T> block = BLOCKS.register(nameIn, blockIn);
-        ITEMS.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(CreativeModeTab.TAB_DECORATIONS)));
+        ITEMS.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(ItemGroup.TAB_REDSTONE)));
         BLOCK_LANG_EN_US.put(block, localizationIn);
         DOOR_LOOT_TABLE.add(block);
         return block;
@@ -89,7 +89,7 @@ public class SBYGBlocks {
 
     private static <T extends Block> RegistryObject<T> registerTrapdoorBlockBase(String nameIn, String localizationIn, Supplier<T> blockIn) {
         RegistryObject<T> block = BLOCKS.register(nameIn, blockIn);
-        ITEMS.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(CreativeModeTab.TAB_DECORATIONS)));
+        ITEMS.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(ItemGroup.TAB_REDSTONE)));
         BLOCK_LANG_EN_US.put(block, localizationIn);
         TRAPDOOR_LOOT_TABLE.add(block);
         return block;
@@ -325,9 +325,6 @@ public class SBYGBlocks {
     public static RegistryObject<DoorBlock> SECRET_PINK_SANDSTONE_DOOR = registerSandstoneDoorBlock("pink", "Pink", () -> new DoorBlock(STONE_PROPERTIES));
     public static RegistryObject<DoorBlock> SECRET_CUT_PINK_SANDSTONE_DOOR = registerSandstoneDoorBlock("cut_pink", "Cut Pink", () -> new DoorBlock(STONE_PROPERTIES));
     public static RegistryObject<DoorBlock> SECRET_SMOOTH_PINK_SANDSTONE_DOOR = registerSandstoneDoorBlock("smooth_pink", "Smooth Pink", () -> new DoorBlock(STONE_PROPERTIES));
-    public static RegistryObject<DoorBlock> SECRET_WINDSWEPT_SANDSTONE_DOOR = registerSandstoneDoorBlock("windswept", "Windswept", () -> new DoorBlock(STONE_PROPERTIES));
-    public static RegistryObject<DoorBlock> SECRET_CUT_WINDSWEPT_SANDSTONE_DOOR = registerSandstoneDoorBlock("cut_windswept", "Cut Windswept", () -> new DoorBlock(STONE_PROPERTIES));
-    public static RegistryObject<DoorBlock> SECRET_SMOOTH_WINDSWEPT_SANDSTONE_DOOR = registerSandstoneDoorBlock("smooth_windswept", "Smooth Windswept", () -> new DoorBlock(STONE_PROPERTIES));
 
     public static RegistryObject<DoorBlock> SECRET_BLUE_NETHERRACK_DOOR = registerDoorBlock("blue_netherrack", "Blue Netherrack", () -> new DoorBlock(NETHERRACK_PROPERTIES));
     public static RegistryObject<DoorBlock> SECRET_BLUE_NETHER_BRICK_DOOR = registerDoorBlock("blue_nether_bricks", "Blue Nether Bricks", () -> new DoorBlock(NETHERBRICK_PROPERTIES));
@@ -497,9 +494,6 @@ public class SBYGBlocks {
     public static RegistryObject<TrapDoorBlock> SECRET_PINK_SANDSTONE_TRAPDOOR = registerSandstoneTrapdoorBlock("pink", "Pink", () -> new TrapDoorBlock(STONE_PROPERTIES));
     public static RegistryObject<TrapDoorBlock> SECRET_CUT_PINK_SANDSTONE_TRAPDOOR = registerSandstoneTrapdoorBlock("cut_pink", "Cut Pink", () -> new TrapDoorBlock(STONE_PROPERTIES));
     public static RegistryObject<TrapDoorBlock> SECRET_SMOOTH_PINK_SANDSTONE_TRAPDOOR = registerSandstoneTrapdoorBlock("smooth_pink", "Smooth Pink", () -> new TrapDoorBlock(STONE_PROPERTIES));
-    public static RegistryObject<TrapDoorBlock> SECRET_WINDSWEPT_SANDSTONE_TRAPDOOR = registerSandstoneTrapdoorBlock("windswept", "Windswept", () -> new TrapDoorBlock(STONE_PROPERTIES));
-    public static RegistryObject<TrapDoorBlock> SECRET_CUT_WINDSWEPT_SANDSTONE_TRAPDOOR = registerSandstoneTrapdoorBlock("cut_windswept", "Cut Windswept", () -> new TrapDoorBlock(STONE_PROPERTIES));
-    public static RegistryObject<TrapDoorBlock> SECRET_SMOOTH_WINDSWEPT_SANDSTONE_TRAPDOOR = registerSandstoneTrapdoorBlock("smooth_windswept", "Smooth Windswept", () -> new TrapDoorBlock(STONE_PROPERTIES));
 
     public static RegistryObject<TrapDoorBlock> SECRET_BLUE_NETHERRACK_TRAPDOOR = registerTrapdoorBlock("blue_netherrack", "Blue Netherrack", () -> new TrapDoorBlock(NETHERRACK_PROPERTIES));
     public static RegistryObject<TrapDoorBlock> SECRET_BLUE_NETHER_BRICK_TRAPDOOR = registerTrapdoorBlock("blue_nether_bricks", "Blue Nether Bricks", () -> new TrapDoorBlock(NETHERBRICK_PROPERTIES));

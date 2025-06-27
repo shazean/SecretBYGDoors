@@ -2,10 +2,10 @@ package com.shim.secretbygdoors.datagen;
 
 import com.shim.secretbygdoors.SBYGBlocks;
 import com.shim.secretbygdoors.SecretBYGDoors;
+import net.minecraft.block.Block;
 import net.minecraft.data.DataGenerator;
-import net.minecraft.world.level.block.Block;
 import net.minecraftforge.common.data.LanguageProvider;
-import net.minecraftforge.registries.RegistryObject;
+import net.minecraftforge.fml.RegistryObject;
 
 public class LangProvider extends LanguageProvider {
     public LangProvider(DataGenerator gen, String locale) {
